@@ -31,14 +31,19 @@ img {
 	max-width: 100%;
 	height: auto;
 }
-.navbar {
-	flex-wrap: unset;
-}
+//.navbar {
+//	flex-wrap: unset;
+//}
 
 #navbarNavAltMarkup {
 	flex-wrap: wrap;
+
 }
 
 .navbar-toggler{
 	border: none;
+}
+
+.cards{
+	display: flex;
 }

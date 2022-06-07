@@ -1,166 +1,362 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
-	<meta charset="utf-8">
-	
-	<title>Chocolate Club</title>
+    <meta charset="utf-8">
 
-	<meta name="robots" content="All">
-	<meta name="author" content="Udgiver">
-	<meta name="copyright" content="Information om copyright">
-	
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-	<link href="css/styles.css" rel="stylesheet" type="text/css">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chocolate Club</title>
+
+    <meta name="robots" content="All">
+    <meta name="author" content="Udgiver">
+    <meta name="copyright" content="Information om copyright">
+
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 
+<!-- Nav -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-	<div class="container-fluid">
-		<a class="navbar-brand" href="index.html"><img src="images/Logo.png" alt="Home"></a>
-		<a class="nav-link order-lg-last" href="kurv.php"><img src="images/Kurv.png" alt="cart"></a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<div class="navbar-nav">
-				<a class="nav-link active" aria-current="page" href="#">Shop</a>
-				<a class="nav-link" href="chocolatiers.php">Chocolatiers</a>
-				<a class="nav-link" href="Kontakt.php">Kontakt</a>
-				<a class="nav-link" href="#">Speciel bestilling</a>
-			</div>
-		</div>
-	</div>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="images/Logo.png" alt="Home"></a>
+        <div class="order-lg-last d-flex">
+        <a class="nav-link " href="kurv.php"><img src="images/kurv%20lille.png" alt="cart"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Shop</a>
+                <a class="nav-link" href="chocolatiers.php">Chocolatiers</a>
+                <a class="nav-link" href="Kontakt.php">Kontakt</a>
+                <a class="nav-link" href="#">Speciel bestilling</a>
+            </div>
+        </div>
+    </div>
 </nav>
+
+<div class="container-fluid d-lg-none d-md-none">
+    <img src="images/Herosm.png" alt="Hero">
+</div>
+
+<div class="container-fluid d-none d-md-block">
+    <img src="images/Herolg.png" alt="Herolg">
+</div>
 
 <br><br><br><br><br><br><br><br>
 <!-- sm carousel -->
 <div class="container-fluid d-lg-none d-md-none">
-<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-	<div class="carousel-indicators">
-		<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-		<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-		<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-	</div>
-	<div class="carousel-inner">
-		<div class="carousel-item active" data-bs-interval="10000">
-			<div class="card" style="width: 18rem;">
-				<img src="images/Mail.png" class="card-img-top" alt="...">
-				<div class="card-body">
-					<h5 class="card-title">Amalie Mikkelsen</h5>
-					<p class="card-text">Oplev de eksklusive og smagefulde chokolader.</p>
-					<a href="#" class="btn btn-primary">Se universet</a>
-				</div>
-			</div>
-			<div class="carousel-caption d-none d-md-block">
-				<h5>First slide label</h5>
-				<p>Some representative placeholder content for the first slide.</p>
-			</div>
-		</div>
-		<div class="carousel-item" data-bs-interval="2000">
-			<div class="card" style="width: 18rem;">
-				<img src="images/Mail.png" class="card-img-top" alt="...">
-				<div class="card-body">
-					<h5 class="card-title">Tobias Trads</h5>
-					<p class="card-text">Finurlige chocolader til alle farverige sjæle</p>
-					<a href="#" class="btn btn-primary">Se universet</a>
-				</div>
-			</div>
-			<div class="carousel-caption d-none d-md-block">
-				<h5>Second slide label</h5>
-				<p>Some representative placeholder content for the second slide.</p>
-			</div>
-		</div>
-		<div class="carousel-item">
-			<div class="card" style="width: 18rem;">
-				<img src="images/Mail.png" class="card-img-top" alt="...">
-				<div class="card-body">
-					<h5 class="card-title">Frederik Wolmar</h5>
-					<p class="card-text">Din begivenhed, er mit mesterværk</p>
-					<a href="#" class="btn btn-primary">Se universet</a>
-				</div>
-			</div>
-			<div class="carousel-caption d-none d-md-block">
-				<h5>Third slide label</h5>
-				<p>Some representative placeholder content for the third slide.</p>
-			</div>
-		</div>
-	</div>
-	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		<span class="visually-hidden">Previous</span>
-	</button>
-	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-		<span class="carousel-control-next-icon" aria-hidden="true"></span>
-		<span class="visually-hidden">Next</span>
-	</button>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="images/Mail.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Amalie Mikkelsen</h5>
+                        <p class="card-text">Oplev de eksklusive og smagefulde chokolader.</p>
+                        <a href="#" class="btn btn-primary">Se universet</a>
+                    </div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="images/Mail.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tobias Trads</h5>
+                        <p class="card-text">Finurlige chocolader til alle farverige sjæle</p>
+                        <a href="#" class="btn btn-primary">Se universet</a>
+                    </div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="images/Mail.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Frederik Wolmar</h5>
+                        <p class="card-text">Din begivenhed, er mit mesterværk</p>
+                        <a href="#" class="btn btn-primary">Se universet</a>
+                    </div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 </div>
+<br><br>
+
+<!-- cards/ product Lg -->
+<div class="cards container-fluid d-none d-lg-block d-md-block flex-wrap">
+    <div class="row">
+        <div class="col-lg-3 col-md-6">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<br><br><br><br><br><br>
+
+
+<br><br><br><br><br><br><br><br>
+<!-- sm carousel -->
+<div class="container-fluid d-lg-none d-md-none">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="images/Mail.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Amalie Mikkelsen</h5>
+                        <p class="card-text">Oplev de eksklusive og smagefulde chokolader.</p>
+                        <a href="#" class="btn btn-primary">Se universet</a>
+                    </div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="images/Mail.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tobias Trads</h5>
+                        <p class="card-text">Finurlige chocolader til alle farverige sjæle</p>
+                        <a href="#" class="btn btn-primary">Se universet</a>
+                    </div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="images/Mail.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Frederik Wolmar</h5>
+                        <p class="card-text">Din begivenhed, er mit mesterværk</p>
+                        <a href="#" class="btn btn-primary">Se universet</a>
+                    </div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<br><br>
+
+<!-- cards/ product Lg -->
+<div class="cards container-fluid d-none d-lg-block d-md-block flex-wrap">
+    <div class="row">
+        <div class="col-lg-3 col-md-6">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 
 <!-- Artikel + Tilmelding -->
-
 <div class="card mb-3 m-5 col-lg-5 col-sm-12" style="max-width: 540px;">
-	<div class="row g-0">
-		<div class="col-md-4">
-			<img src="images/Mail.png" class="img-fluid rounded-start" alt="artikle">
-		</div>
-		<div class="col-md-8">
-			<div class="card-body">
-				<h5 class="card-title">Artikel</h5>
-				<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-				<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-				<a href="#" class="btn btn-primary">Læs mere</a>
-			</div>
-		</div>
-	</div>
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="images/Mail.png" class="img-fluid rounded-start" alt="artikle">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">Artikel</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <a href="#" class="btn btn-primary">Læs mere</a>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="input-group mb-3 m-5 col-lg-5 col-sm-12 justify-content-center" style="max-width: 300px;">
-	<span class="input-group-text" id="basic-addon1">Tilmeld</span>
-	<input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+    <span class="input-group-text" id="basic-addon1">Tilmeld</span>
+    <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
 </div>
-<br><br><br><br><br><br>
+<br><br>
+
+
+<!-- SoMe kanal -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-2 col-md-2 col-4"><a><img src="images/SoMeA.png" alt="SoMe1"></a></div>
+        <div class="col-lg-2 col-md-2 col-4"><a><img src="images/SoMeJ.png" alt="SoMe2"></a></div>
+        <div class="col-lg-2 col-md-2 col-4"><a><img src="images/SoMeC.png" alt="SoMe3"></a></div>
+        <div class="col-lg-2 col-md-2 col-4"><a><img src="images/SoMeI.png" alt="SoMe4"></a></div>
+        <div class="col-lg-2 col-md-2 col-4"><a><img src="images/SoMeK.png" alt="SoMe5"></a></div>
+        <div class="col-lg-2 col-md-2 col-4"><a><img src="images/SoMeB.png" alt="SoMe6"></a></div>
+    </div>
+</div>
 
 <!-- footer -->
 <nav class="nav column bg-light">
-	<div class="row">
-		<div class="col-sm-5">
-			<div class="card">
-				<div class="card-body">
-					<a class="nav-link" href="#"><img src="images/Telefon.png" alt="number">+45 12 34 56 78</a>
-					<a class="nav-link" href="#"><img src="images/Mail.png" alt="mail">Mail@cc.dk</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-5">
-			<div class="card">
-				<div class="card-body">
-					<h5 class="card-title">Mød os her</h5>
-					<a class="nav-link" href="#"><img src="images/Tegnebræt%2010.png" alt="SoMe"></a>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="row">
+        <div class="col-sm-5">
+            <div class="card">
+                <div class="card-body">
+                    <a class="nav-link" href="#"><img src="images/Telefon.png" alt="number">+45 12 34 56 78</a>
+                    <a class="nav-link" href="#"><img src="images/Mail.png" alt="mail">Mail@cc.dk</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-5">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Mød os her</h5>
+                    <a class="nav-link" href="#"><img src="images/Tegnebræt%2010.png" alt="SoMe"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<a class="nav-link d-lg-none" href="#"><img src="images/kort.png" alt="map"></a>
-	<a class="nav-link d-none d-lg-block" href="#"><img src="images/Lgkort.png" alt="largemap"></a>
-	<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
-		Cookies Q & A  Bæredygtighed  Fragt og levering
-		Bytte- og returret Reklamationer og garantier
-		Gavekort og tilgodebeviser Forretningsbetingelser
-		Om Chocolate Club Persondatapolitik Fødevarestyrelsen
+    <a class="nav-link d-lg-none" href="#"><img src="images/kort.png" alt="map"></a>
+    <a class="nav-link d-none d-lg-block" href="#"><img src="images/Lgkort.png" alt="largemap"></a>
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
+        Cookies Q & A Bæredygtighed Fragt og levering
+        Bytte- og returret Reklamationer og garantier
+        Gavekort og tilgodebeviser Forretningsbetingelser
+        Om Chocolate Club Persondatapolitik Fødevarestyrelsen
 
-		<div class="container-fluid justify-content-center">
-			<div class="row">
-				<img src="images/copyright.png" alt="copyrights">
-			</div>
-		</div>
-	</a>
+        <div class="container-fluid justify-content-center">
+            <div class="row">
+                <img src="images/copyright.png" alt="copyrights">
+            </div>
+        </div>
+    </a>
 </nav>
-
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
