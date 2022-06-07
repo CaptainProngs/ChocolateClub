@@ -12,52 +12,75 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+          rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 
-<div class="container-fluid bg-primary">
-    <div class="row">
-        <div class="col-12 align-self-center">
-        <h1>Indkøbskurv</h1>
-        </div>
-    </div>
-</div>
-
-<div class="container bg-light">
-    <div class="row justify-content-start">
-        <div class="col-6">
-            Produkter
-        </div>
-        <div class="col-3">
-            Antal
-        </div>
-        <div class="col-3">
-            Pris
-        </div>
-    </div>
-</div>
-
-    <br><br>
-
-
+<section class="pt-5 pb-5">
     <div class="container">
-        <div class="row justify-content-start">
-            <div class="col-6"><img src="images/Telefon.png" alt="billede"></div>
-            <div class="col-2">
-                <input class="form-control" type="text" placeholder="antal" aria-label="antal">
+        <div class="row w-100">
+            <div class="col-lg-12 col-md-12 col-12">
+                <h3 class="display-5 mb-2 text-center">Indkøbskurv</h3>
+                <p class="mb-5 text-center">
+                    <i class="text-info font-weight-bold">1</i> Vare i din kurv</p>
+                <div class="col-sm-6 mb-3 mb-m-1 order-md-1 text-md-left">
+                    <a href="webshop...">
+                        <i class="fas fa-arrow-left mr-2"></i> Forsæt med at shoppe</a>
+                </div>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col" class="border-0 bg-light">
+                                <div class="p-2 px-3 text-uppercase">Product</div>
+                            </th>
+                            <th scope="col" class="border-0 bg-light">
+                                <div class="py-2 text-uppercase"></div>
+                            </th>
+                            <th scope="col" class="border-0 bg-light">
+                                <div class="py-2 text-uppercase">Antal</div>
+                            </th>
+                            <th scope="col" class="border-0 bg-light">
+                            </th>
+                            <th scope="col" class="border-0 bg-light">
+                                <div class="py-2 text-uppercase">Pris</div>
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row" class="border-0">
+                                <div class="p-2">
+                                    <img src="images/SoMeA.png" alt="" width="70" class="img-fluid rounded shadow-sm">
+                                    <div class="ml-3 d-inline-block align-middle">
+                                        <h5 class="mb-0"><a href="#" class="text-dark d-inline-block align-middle">Chokolade
+                                                fest</a></h5><span
+                                                class="text-muted font-weight-normal font-italic d-block">Lækkert chokolade</span>
+                                    </div>
+                                </div>
+                            </th>
+
+                    </table>
+                    <div class="float-right text-right">
+                        <h4>Subtotal:</h4>
+                        <h1>85 DKK</h1>
+                    </div>
+                </div>
             </div>
-            <div class="col-1"><img src="images/spand.png" alt="skraldespand"></div>
-            <div class="col-2">
-                <input class="form-control" type="text" placeholder="Pris" aria-label="Pris" disabled>
+            <div class="row mt-4 d-flex align-items-center">
+                <div class="col-sm-6 order-md-2 text-right">
+                    <a href="betaling.php" class="btn btn-primary mb-4 btn-lg pl-5 pr-5">Gå til betaling</a>
+                </div>
             </div>
         </div>
+</section>
 
-<div class="container">
-    <div class="row justify-content-start">
-        <div class="shadow-sm p-3 mb-5 bg-body rounded d-md-none d-lg-none">Varebeskrivelse</div>
-    </div>
 
 </body>
 </html>
