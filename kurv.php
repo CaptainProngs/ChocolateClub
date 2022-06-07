@@ -14,6 +14,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
 <div class="container-fluid bg-primary">
@@ -52,6 +53,11 @@
                 <input class="form-control" type="text" placeholder="Pris" aria-label="Pris" disabled>
             </div>
         </div>
+
+<div class="container">
+    <div class="row justify-content-start">
+        <div class="shadow-sm p-3 mb-5 bg-body rounded d-md-none d-lg-none">Varebeskrivelse</div>
+    </div>
 
 </body>
 </html>
