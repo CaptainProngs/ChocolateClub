@@ -1,33 +1,57 @@
-<!-- Instruktion til webbrowser om at vi kører HTML5 -->
 <!DOCTYPE html>
-
-<!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
 <html lang="da">
-
-<!-- I <head> har man opsætning - det ser brugeren ikke, men det fortæller noget om siden -->
 <head>
-    <!-- Sætter tegnsætning til utf-8 som bl.a. tillader danske bogstaver -->
     <meta charset="utf-8">
 
-    <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Sigende titel</title>
+    <title>Chocolate Club</title>
 
-    <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
-    <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
-    <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
-<!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<!-- Her skal sidens indhold ligge -->
+<div class="container-fluid bg-primary">
+    <div class="row">
+        <div class="col-12 align-self-center">
+        <h1>Indkøbskurv</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container bg-light">
+    <div class="row justify-content-start">
+        <div class="col-6">
+            Produkter
+        </div>
+        <div class="col-3">
+            Antal
+        </div>
+        <div class="col-3">
+            Pris
+        </div>
+    </div>
+</div>
+
+    <br><br>
+
+
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-6"><img src="images/Telefon.png" alt="billede"></div>
+            <div class="col-2">
+                <input class="form-control" type="text" placeholder="antal" aria-label="antal">
+            </div>
+            <div class="col-1"><img src="images/spand.png" alt="skraldespand"></div>
+            <div class="col-2">
+                <input class="form-control" type="text" placeholder="Pris" aria-label="Pris" disabled>
+            </div>
+        </div>
 
 </body>
 </html>
