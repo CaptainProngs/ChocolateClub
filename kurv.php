@@ -23,7 +23,7 @@
 <body>
 
 <section class="pt-5 pb-5">
-    <div class="container">
+    <div class="container text-wrap">
         <div class="row w-100">
             <div class="col-lg-12 col-md-12 col-12">
                 <h3 class="display-5 mb-2 text-center">Indkøbskurv</h3>
@@ -65,20 +65,30 @@
                                     </div>
                                 </div>
                             </th>
-
+                            <td class="border-0 align-middle"><strong>1</strong></td>
+                            <td class="border-0 align-middle"><img src="images/spand.png" alt="fjern" width="70">
+                            <td class="border-0 align-middle"><strong>85 DKK</strong>
+                            </td>
+                        </tr>
                     </table>
+                    <div class="bg-light rounded px-4 py-3 text-uppercase font-weight-bold">Kommentar til ordren</div>
+                    <div class="p-4">
+                        <textarea name="" cols="30" rows="2" class="form-control"></textarea>
+                    </div>
+                </div>
                     <div class="float-right text-right">
-                        <h4>Subtotal:</h4>
+                        <h4>Subtotal</h4>
                         <h1>85 DKK</h1>
                     </div>
                 </div>
             </div>
-            <div class="row mt-4 d-flex align-items-center">
-                <div class="col-sm-6 order-md-2 text-right">
+            <div class="row mt-4 d-flex justify-content-end">
+                <div class="col-sm-6 order-md-2 order-lg-2 text-right">
                     <a href="betaling.php" class="btn btn-primary mb-4 btn-lg pl-5 pr-5">Gå til betaling</a>
                 </div>
             </div>
-        </div>
+    </div>
+    </div>
 </section>
 
 
