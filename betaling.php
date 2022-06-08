@@ -13,6 +13,22 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+        function disableSubmit() {
+            document.getElementById("submit").disabled = true;
+        }
+
+        function activateButton(element) {
+
+            if (element.checked) {
+                document.getElementById("submit").disabled = false;
+            } else {
+                document.getElementById("submit").disabled = true;
+            }
+        }
+    </script>
+
 </head>
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
@@ -150,16 +166,17 @@
                                          class="img-fluid rounded shadow-sm">
                                     <div class="ml-3 d-inline-block align-middle">
                                         <h5 class="mb-0"><a href="#" class="text-dark d-inline-block align-middle">Chokolade
-                                                fest</a></h5><span class="text-muted font-weight-normal font-italic d-block">Lækkert chokolade</span>
+                                                fest</a></h5><span
+                                                class="text-muted font-weight-normal font-italic d-block">Lækkert chokolade</span>
                                     </div>
                                 </div>
                             </th>
                             <th scope="col" class="border-0">
                                 <div class="py-2 d-none"></div>
                             </th>
-                                <td class="border-0 align-middle"><strong>1</strong></td>
-                                <td class="border-0 align-middle">
-                                <td class="border-0 align-middle"><strong>85 DKK</strong>
+                            <td class="border-0 align-middle"><strong>1</strong></td>
+                            <td class="border-0 align-middle">
+                            <td class="border-0 align-middle"><strong>85 DKK</strong>
                             </td>
                         </tr>
                         </tbody>
@@ -170,18 +187,47 @@
     </div>
 </section>
 
+
 <section class="">
-    <div class="container bg-light mt-5 py-2 rounded col-mb-6 col-lg-6">
+    <div class="container mt-5 py-2 rounded">
         <div class="row">
-            <div class="col-12">
-                <div class="bg-light rounded py-3 text-uppercase font-weight-bold">Kommentar til ordren</div>
+            <div class="col-12 col-sm-12 col-mb-6 col-lg-6">
+                <h6 class="mb-2 text-start bg-light p-3">Din kommentar</h6>
             </div>
         </div>
     </div>
+
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <label><textarea name="" cols="60" rows="3" class="form-control bg-light">Yaaaash Queen</textarea></label>
+                <label><textarea name="" cols="64" rows="3"
+                                 class="form-control bg-light">Yaaaash Queen</textarea></label>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 py-2 col-mb-12 col-lg-12">
+        <div class="row">
+            <div class="col-12">
+                <h4 class="text-end flex-semibold">Subtotal</h4>
+                <h1 class="text-end fw-bold">85 DKK</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 py-2 rounded col-12">
+        <div class="row">
+            <div class="col-12">
+                <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)"> Jeg bekræfter, at jeg har læst, forstået og accepteret Chocolate Clubs købsbetingelser.
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-light mt-5 py-2 rounded col-12">
+        <div class="row">
+            <div class="col-12">
+                <a href="betaling.php" class=" text-end btn btn-primary mb-4 btn-lg pl-5 pr-5">Bekræft
+                    betaling</a>
             </div>
         </div>
     </div>
