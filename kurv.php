@@ -14,10 +14,9 @@
 
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
           rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <body>
@@ -65,29 +64,46 @@
                                     </div>
                                 </div>
                             </th>
+
+                            <th scope="col" class="border-0">
+                                <div class="py-2 d-none"></div>
+                            </th>
                             <td class="border-0 align-middle"><strong>1</strong></td>
-                            <td class="border-0 align-middle"><img src="images/spand.png" alt="fjern" width="70">
+                            <td class="border-0 align-middle"><img src="images/spand.png" alt="fjern"
+                                                                   width="30 px">
                             <td class="border-0 align-middle"><strong>85 DKK</strong>
                             </td>
                         </tr>
+                        </tbody>
                     </table>
-                    <div class="bg-light rounded px-4 py-3 text-uppercase font-weight-bold">Kommentar til ordren</div>
-                    <div class="p-4">
-                        <textarea name="" cols="30" rows="2" class="form-control"></textarea>
-                    </div>
                 </div>
-                    <div class="float-right text-right">
-                        <h4>Subtotal</h4>
-                        <h1>85 DKK</h1>
+                <div class="bg-light rounded px-4 py-3 text-uppercase font-weight-bold">Kommentar til ordren</div>
+                <label><textarea name="" cols="30" rows="2" class="form-control "></textarea></label>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 col-md-3 col-lg-2 py-2 bg-light rounded shadow-sm"> Click & Collect</div>
+                        <div class="col-1"></div>
+                        <div class="col-4 col-md-3 col-lg-2 py-2 bg-light rounded shadow-sm"> Levering</div>
+                        <div class="col-3 col-md-6 col-lg-8"></div>
+                        <div class="col-3 col-md-6 col-lg-8 "></div>
                     </div>
                 </div>
             </div>
-            <div class="row mt-4 d-flex justify-content-end">
-                <div class="col-sm-6 order-md-2 order-lg-2 text-right">
-                    <a href="betaling.php" class="btn btn-primary mb-4 btn-lg pl-5 pr-5">Gå til betaling</a>
+            <div class="row">
+                <div class="float-right text-right">
+                    <h4>Subtotal</h4>
+                    <h1>85 DKK</h1>
+                    <div class="row mt-4 d-flex justify-content-end">
+                        <div class="col-sm-6 order-md-2 order-lg-2 text-right">
+                            <p>Gå til næste side for at vælge afhentningstidspunkt</p>
+                            <br>
+                            <a href="betaling.php" class="btn btn-primary mb-4 btn-lg pl-5 pr-5">Gå til
+                                betaling</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-    </div>
+        </div>
     </div>
 </section>
 
