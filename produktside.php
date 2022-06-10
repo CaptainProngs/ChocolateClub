@@ -57,44 +57,38 @@
     <div class="row pt-3 gx-5">
 
         <div class="col-6 shadow p-0 bg-body rounded ">
-    <img src="images/Produkt.webp"class="rounded mx-auto d-block" width="400px" alt="produkt">
+            <img src="images/Produkt.webp" class="rounded mx-auto d-block" width="400px" alt="produkt">
         </div>
 
         <div class="col-6">
-        <div class="pt-5">
-            <h1>Smagsfyldte chokolade</h1>
-            <h4>111 DKK</h4>
-            <h6>Lorem ipsum</h6>
-            <h6>sadasdsaf</h6>
-            <h6>sadasdsaf</h6>
-            <h6>sadasdsaf</h6>
+            <div class="pt-5">
+                <h1>Smagsfyldte chokolade</h1>
+                <h4>111 DKK</h4>
+                <h6>Lorem ipsum</h6>
+                <h6>sadasdsaf</h6>
+                <h6>sadasdsaf</h6>
+                <h6>sadasdsaf</h6>
 
-        </div>
+            </div>
 
-        <div class="pt-5">
-            <h6>Antal</h6>
-            <button type="button" class="btn btn-light btn-outline-secondary">1</button>
-            <button type="button" class="btn btn-light btn-outline-secondary">+</button>
-            <button type="button" class="btn btn-light btn-outline-secondary">-</button>
-        </div>
+            <div class="pt-5 mt-5">
+                <h6>Antal</h6>
+                <button type="button" class="btn btn-light btn-outline-secondary">1</button>
+                <button type="button" class="btn btn-light btn-outline-secondary">+</button>
+                <button type="button" class="btn btn-light btn-outline-secondary">-</button>
+            </div>
+
+            <br><br>
+
             <div class="col-6 pt-5">
                 <button type="button" class="btn btn-primary">Læg i kurv</button>
             </div>
         </div>
     </div>
-
-            <div class="row justify-content-end">
-
-            </div>
-
-
 </div>
 
-<div class="container col-12">
-    <div class="row">
 
-    </div>
-</div>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
