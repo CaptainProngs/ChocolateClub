@@ -39,17 +39,26 @@
     </div>
 </nav>
 
-<div class="container-fluid d-lg-none d-md-none">
+<div class="row">
+<div class="container-fluid d-lg-none d-md-none p-0 position-absolute">
     <img src="images/Herosm.png" alt="Hero">
 </div>
 
-<div class="container-fluid d-none d-md-block">
+<div class="container-fluid d-none d-md-block p-0 position-absolute">
     <img src="images/Herolg.png" alt="Herolg">
 </div>
 
-<br><br>
+    <a class="CTA btn position-relative fixed-bottom" href="Webshop.php" role="button">SHOP</a>
+</div>
+
+<br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br>
+
+
 <!-- sm carousel produkt -->
 <div class="container-fluid d-lg-none d-md-none">
+    <h3 class="header p-3>"Gå på opdagelse</h3>
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
 
         <div class="carousel-inner p-2">
@@ -111,7 +120,7 @@
 <br>
 
 <!-- cards/ product Lg -->
-<div class="cards container-fluid d-none d-lg-block d-md-block flex-wrap">
+<div class="cards container-fluid d-none d-lg-block d-md-block flex-wrap p-3">
     <h2 class="header">Gå på opdagelse</h2>
     <div class="row">
         <div class="col-lg-3 col-md-6 p-3">
@@ -230,7 +239,7 @@
 <!-- cards/ product Lg -->
 <div class="cards container-fluid d-none d-lg-block d-md-block flex-wrap">
     <div class="row mx-auto">
-        <div class="col-lg-3 col-md-4">
+        <div class="col-lg-3 col-md-4 p-3">
             <div class="card m-3" style="width: 18rem;">
                 <img src="images/Frederik%20baggrund.png" class="card-img-top" alt="Frederik">
                 <div class="card-body">
@@ -240,7 +249,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4">
+        <div class="col-lg-3 col-md-4 p-3">
             <div class="card m-3" style="width: 18rem;">
                 <img src="images/Amalie%20baggrund.png" class="card-img-top" alt="Amalie">
                 <div class="card-body">
@@ -250,7 +259,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4">
+        <div class="col-lg-3 col-md-4 p-3">
             <div class="card m-3" style="width: 18rem;">
                 <img src="images/Tobias%20baggrund.png" class="card-img-top" alt="Tobias">
                 <div class="card-body">
@@ -263,9 +272,7 @@
     </div>
 </div>
 
-
-<div class="container-fluid"><img src="images/Banner.png" alt="banner"></div>
-
+<div class="container-fluid p-0"><img src="images/Banner.png" alt="banner"></div>
 
 <!-- Artikel + Tilmelding -->
 <div class="container-fluid">
@@ -302,8 +309,8 @@
 <div class="container-fluid p-5">
     <div class="container">
         <div class="row justify-content-start">
-            <div class="col-lg-3 col-4">
-                <h4>Mød os her</h4>
+            <div class="col-lg-3 col-5">
+                <h5>Mød os her</h5>
             </div>
         </div>
     </div>
@@ -326,36 +333,75 @@
 </div>
 
 
-<!-- footer -->
-<nav class="nav column bg-light">
-    <div class="row">
-        <div class="col-sm-5">
-            <div class="card">
-                <div class="card-body">
-                    <a class="nav-link" href="#"><img src="images/Telefon.png" alt="number">+45 12 34 56 78</a>
-                    <a class="nav-link" href="#"><img src="images/Mail.png" alt="mail">Mail@cc.dk</a>
-                </div>
+<!-- footer
+
+<a class="nav-link" href="#"><img src="images/Telefon.png" alt="number">+45 12 34 56 78</a>
+<a class="nav-link" href="#"><img src="images/Mail.png" alt="mail">Mail@cc.dk</a>
+
+
+<a class="nav-link d-lg-none" href="#"><img src="images/kort.png" alt="map"></a>
+<a class="nav-link d-none d-lg-block" href="#"><img src="images/Lgkort.png" alt="largemap"></a>
+<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
+    -->
+
+<a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/kort.png" alt="map"></a>
+
+<a class="nav-link d-lg-none" href="#"><img src="images/kort.png" alt="map"></a>
+<a class="nav-link d-none d-lg-block" href="#"><img src="images/KortLG.png" alt="largemap"></a>
+
+<nav class="nav bg-footerfarve">
+    <div class="row justify-content-evenly">
+
+        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Chocolate Club</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                    Agerskovvej 17,
+                    4000 Roskilde</h6>
+                <a class="nav-link" href="#"><img src="images/Telefon.png" alt="number">+45 12 34 56 78</a>
+                <a class="nav-link" href="#"><img src="images/Mail.png" alt="mail">Mail@cc.dk</a>
+            </div>
+        </div>
+
+        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Åbningstider</h5>
+                <p class="card-text">
+                    Mandag - torsdag</p>
+                <p class="card-text">
+                    12:00 - 16:30</p><br>
+                <p class="card-text">
+                    Fredag - søndag</p>
+                <p class="card-text">
+                    11:00 - 19:00</p>
+            </div>
+        </div>
+
+        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Kundeservice</h5>
+                <a class="nav-link p-0" href="#">Fragt og levering</a>
+                <a class="nav-link p-0" href="#">Bytte- og returret</a>
+                <a class="nav-link p-0" href="#">Handelsbetingelser</a>
+                <a class="nav-link p-0" href="#">Reklamation</a>
+                <a class="nav-link p-0" href="#">Persondatapolitik</a>
+                <a class="nav-link p-0" href="#">Fødevarestyrelsen</a>
+                <a class="nav-link p-0" href="#">Bæredygtighed</a>
+                <a class="nav-link p-0" href="#">Gavekort og tilgodebeviser</a>
+                <a class="nav-link p-0" href="#">Om os</a>
+                <a class="nav-link p-0" href="#">Q&A</a>
+                <a class="nav-link p-0" href="#">Cookies</a>
             </div>
         </div>
 
     </div>
-    </div>
-
-    <a class="nav-link d-lg-none" href="#"><img src="images/kort.png" alt="map"></a>
-    <a class="nav-link d-none d-lg-block" href="#"><img src="images/Lgkort.png" alt="largemap"></a>
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
-        Cookies Q & A Bæredygtighed Fragt og levering
-        Bytte- og returret Reklamationer og garantier
-        Gavekort og tilgodebeviser Forretningsbetingelser
-        Om Chocolate Club Persondatapolitik Fødevarestyrelsen
-
-        <div class="container-fluid justify-content-center">
-            <div class="row">
-                <img src="images/copyright.png" alt="copyrights">
-            </div>
-        </div>
-    </a>
 </nav>
+
+<div class="container justify-content-center rettighed">
+    <div class="row p-3">
+        <img src="images/rettigheder.png" alt="copyrights">
+    </div>
+</div>
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

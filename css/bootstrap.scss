@@ -9,6 +9,9 @@ $custom-colors: (
   "primary": #0d6efd, //Retter primary
   "minFarve": #6eb3a6, //Tilføjer minFarve
   "knapFarve": #6d6987,
+  "footerfarve": #f6f9ed,
+  "btnfarve": #ee7656,
+
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
