@@ -48,12 +48,14 @@
     </div>
 </nav>
 
-<div class="container-fluid d-lg-none d-md-none p-0">
-    <img src="images/Herosm.png" alt="Hero">
+<div class="container-fluid p-0 mt-3">
+    <img src="images/Chokolade%20banner.png" alt="Hero">
 </div>
 
-<div class="container-fluid d-none d-md-block p-0">
-    <img src="images/Herolg.png" alt="Herolg">
+<br><br>
+
+<div class="container-fluid p-0 mt-3">
+    <img src="images/Chokolade%20banner.png" alt="Hero">
 </div>
 
 <br><br>
@@ -61,9 +63,9 @@
 
 
 
-
 <!-- FOOTER -->
-<a class="nav-link p-0 m-0" href="#"><img src="images/kort.png" alt="map"></a>
+<a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/kort.png" alt="Map"></a>
+<a class="container-fluid nav-link d-none d-lg-block p-0 m-0" href="#"><img src="images/KortLG.png" alt="largemap"></a>
 
 <nav class="nav bg-footerfarve">
     <div class="row justify-content-evenly">
