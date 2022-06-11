@@ -48,8 +48,116 @@
     </div>
 </nav>
 
+<div class="container">
+    <a class="nav-link justify-content-start col-1" href="#"><img src="images/Tegnebræt%208.png"></a>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Startside</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Webshop</li>
+        </ol>
+    </nav>
+
+    <h2 class="col-3 justify-content-end">Webshop</h2>
+</div>
+
+
 <div class="container-fluid p-0 mt-3">
     <img src="images/Chokolade%20banner.png" alt="Hero">
+</div>
+<div class="container-fluid m-3">
+    <h3>Click & Collect</h3>
+    <p>Her kan du købe til alle stunder, hurtigt og bekvemt, eller til de særlige</p>
+    <p>begivenheder, kan der bestilles specielt lavet chokolade længere ned på siden. </p>
+</div>
+
+<div class="container-fluid sorter">
+    <div class="row">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle bg-light text-dark" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Sortering
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Populære</a></li>
+                <li><a class="dropdown-item" href="#">Pris faldende</a></li>
+                <li><a class="dropdown-item" href="#">Pris Stigende</a></li>
+            </ul>
+        </div>
+        <a class="nav-link justify-content-end col-1" href="#"><img src="images/Sorterikon.png"></a>
+    </div>
+</div>
+
+<!-- cards/ product Lg -->
+<div class="cards container-fluid flex-wrap p-3">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-6 p-3">
+            <div class="card shadow" style="width: 18rem;">
+                <img src="images/Produkt1.2.png" class="card-img-top" alt="product1">
+                <div class="card-body">
+                    <h5 class="card-title">Chokolade bar</h5>
+                    <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
+                    <p class="card-text">Lavet af Tobias Trads</p>
+                    <a href="#" class="btn btn-primary bg-knapFarve">Gå til produkt</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 p-3">
+            <div class="card shadow" style="width: 18rem;">
+                <img src="images/Produkt3.2.png" class="card-img-top" alt="product2">
+                <div class="card-body">
+                    <h5 class="card-title">Blandet fine chokolader</h5>
+                    <h6 class="card-text">legede chokolade</h6>
+                    <p class="card-text">Lavet af Amalie Mikkelsen.</p>
+                    <a href="#" class="btn btn-primary bg-knapFarve">Gå til produkt</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 p-3">
+            <div class="card shadow" style="width: 18rem;">
+                <img src="images/Produkt2.2.png" class="card-img-top" alt="product3">
+                <div class="card-body">
+                    <h5 class="card-title">Chokolade bar hindbær</h5>
+                    <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
+                    <p class="card-text">Lavet af Tobias Trads</p>
+                    <a href="#" class="btn btn-primary bg-knapFarve">Gå til produkt</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 p-3">
+            <div class="card shadow" style="width: 18rem;">
+                <img src="images/Produkt5.2.png" class="card-img-top" alt="product4">
+                <div class="card-body">
+                    <h5 class="card-title">Mint kopper</h5>
+                    <h6 class="card-text">Cremet chkolade kopper med et stref af mint</h6>
+                    <p class="card-text">Lavet af Amalie Mikkelsen</p>
+                    <a href="#" class="btn btn-primary bg-knapFarve">Gå til produkt</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 p-3">
+            <div class="card shadow" style="width: 18rem;">
+                <img src="images/Produkt5.2.png" class="card-img-top" alt="product4">
+                <div class="card-body">
+                    <h5 class="card-title">Mint kopper</h5>
+                    <h6 class="card-text">Cremet chkolade kopper med et stref af mint</h6>
+                    <p class="card-text">Lavet af Amalie Mikkelsen</p>
+                    <a href="#" class="btn btn-primary bg-knapFarve">Gå til produkt</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 p-3">
+            <div class="card shadow" style="width: 18rem;">
+                <img src="images/Produkt5.2.png" class="card-img-top" alt="product4">
+                <div class="card-body">
+                    <h5 class="card-title">Mint kopper</h5>
+                    <h6 class="card-text">Cremet chkolade kopper med et stref af mint</h6>
+                    <p class="card-text">Lavet af Amalie Mikkelsen</p>
+                    <a href="#" class="btn btn-primary bg-knapFarve">Gå til produkt</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <br><br>
@@ -61,7 +169,73 @@
 <br><br>
 
 
+<!-- cards/ Speciel -->
+<div class="cards container-fluid flex-wrap p-3">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-6 p-3">
+            <div class="card shadow" style="width: 18rem;">
+                <a href="#"><img src="images/Produkt1.2.png" class="card-img-top" alt="product1"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Chokolade bar</h5>
+                    <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
+                    <p class="card-text">Lavet af Tobias Trads</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 p-3">
+            <div class="card shadow" style="width: 18rem;">
+                <a href="#"><img src="images/Produkt1.2.png" class="card-img-top" alt="product1"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Blandet fine chokolader</h5>
+                    <h6 class="card-text">legede chokolade</h6>
+                    <p class="card-text">Lavet af Amalie Mikkelsen.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 p-3">
+            <div class="card shadow" style="width: 18rem;">
+                <a href="#"><img src="images/Produkt1.2.png" class="card-img-top" alt="product1"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Chokolade bar hindbær</h5>
+                    <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
+                    <p class="card-text">Lavet af Tobias Trads</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 p-3">
+            <div class="card shadow" style="width: 18rem;">
+                <a href="#"><img src="images/Produkt1.2.png" class="card-img-top" alt="product1"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Mint kopper</h5>
+                    <h6 class="card-text">Cremet chkolade kopper med et stref af mint</h6>
+                    <p class="card-text">Lavet af Amalie Mikkelsen</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 p-3">
+            <div class="card shadow" style="width: 18rem;">
+                <a href="#"><img src="images/Produkt1.2.png" class="card-img-top" alt="product1"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Mint kopper</h5>
+                    <h6 class="card-text">Cremet chkolade kopper med et stref af mint</h6>
+                    <p class="card-text">Lavet af Amalie Mikkelsen</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 p-3">
+            <div class="card shadow" style="width: 18rem;">
+                <a href="#"><img src="images/Produkt1.2.png" class="card-img-top" alt="product1"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Mint kopper</h5>
+                    <h6 class="card-text">Cremet chkolade kopper med et stref af mint</h6>
+                    <p class="card-text">Lavet af Amalie Mikkelsen</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
+<br><br><br><br>
 
 <!-- FOOTER -->
 <a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/kort.png" alt="Map"></a>
