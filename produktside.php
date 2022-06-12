@@ -82,11 +82,73 @@
             <br><br>
 
             <div class="col-6 pt-5">
-                <button type="button" class="btn btn-primary">Læg i kurv</button>
+                <button type="button" class="btn btn-knapFarve">Læg i kurv</button>
             </div>
         </div>
     </div>
 </div>
+
+<div class="container-fluid d-lg-none d-md-none">
+    <h3 class="header p-3">Andre kunder har kigget på</h3>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner p-2">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <div class="card mx-auto shadow" style="width: 18rem;">
+                    <img src="images/Produkt1.2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Chokolade bar</h5>
+                        <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
+                        <p class="card-text">Lavet af Tobias Trads</p>
+                        <a href="#" class="btn btn-primary">Se universet</a>
+                    </div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="card mx-auto shadow" style="width: 18rem;">
+                    <img src="images/Produkt3.2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blandet fine chokolader</h5>
+                        <h6 class="card-text">legede chokolade</h6>
+                        <p class="card-text">Lavet af Amalie Mikkelsen.</p>
+                        <a href="#" class="btn btn-primary">Se universet</a>
+                    </div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card mx-auto shadow" style="width: 18rem;">
+                    <img src="images/Produkt5.2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Frederik Wolmar</h5>
+                        <p class="card-text">Din begivenhed, er mit mesterværk</p>
+                        <a href="#" class="btn btn-primary">Se universet</a>
+                    </div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<br>
 
 <div class="cards container-fluid d-none d-lg-block d-md-block flex-wrap p-3">
     <h2 class="header">Andre kunder har kigget på</h2>

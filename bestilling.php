@@ -58,7 +58,8 @@
 </div>
 
 <div class="container col-12 col-lg-4">
-    <img src="images/Tegnebræt%208.png" width="80px" alt="Tilbage pil">
+    <a href="index.html">
+    <img src="images/Tegnebræt%208.png" width="80px" alt="Tilbage pil"></a>
 </div>
 
 <div class="container col-12">
@@ -79,7 +80,7 @@
 
 <div class="container col-3 pt-5">
     <div class="row">
-        <div class="text-center text-knapFarve bg-minFarve opacity-50;">
+        <div class="text-center opacity-50;">
             <h3>Din ordre er klar kl 12:00</h3>
         </div>
     </div>
