@@ -10,13 +10,14 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Produkt side</title>
+    <title>Sigende titel</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
+    <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
@@ -48,23 +49,48 @@
     </div>
 </nav>
 
-<div class="container col-12 justify-content-center">
+<div class="container col-12">
+    <div class="row pt-3 gx-5">
+        <div class="pt-5 text-center">
+            <h1>Tak for din bestilling</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container col-12 col-lg-4">
+    <a href="index.html">
+    <img src="images/Tegnebræt%208.png" width="80px" alt="Tilbage pil"></a>
+</div>
+
+<div class="container col-12">
     <div class="row">
-        <div class="col-4">
-            <a href="index.html">
-                <img src="images/Tegnebræt%208.png" width="80px" alt="Tilbage pil"></a>
+        <div class="text-center">
+            <h3>Kvittering er sendt til din e-mail</h3>
         </div>
-        <div class="col-4 text-center">
-            <h1>404</h1>
-            <br>
-            <h4>Hov der er sket en fejl</h4>
-            <br>
-            <h4>Klik på pillen til at komme tilbage</h4>
-            <br>
-            <h4>eller brug vores menu-bar til at komme hjem</h4>
+    </div>
+</div>
+
+<div class="container col-12">
+    <div class="row">
+        <div class="justify-content-end">
+            <img src="images/checkmark.webp" class="rounded mx-auto d-block" width="20%" alt="Checkmark">
         </div>
-        <div class="col-4">
-            <img src="images/404.webp" class="rounded mx-auto d-block" width="400px" alt="produkt">
+    </div>
+</div>
+
+<div class="container col-3 pt-5">
+    <div class="row">
+        <div class="text-center opacity-50;">
+            <h3>Din ordre er klar kl 12:00</h3>
+        </div>
+    </div>
+</div>
+
+<div class="container col-12">
+    <div class="row pt-5">
+        <div class="text-center">
+            <h3>Den kan hente ved</h3>
+            <h3>Agerskovvej 17, 4000 Roskilde</h3>
         </div>
     </div>
 </div>
