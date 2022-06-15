@@ -53,10 +53,17 @@
     <img src="images/Produktbanner.webp" width="100%" alt="banner">
 </div>
 
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="Webshop.php">Webshop</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Produkt side</li>
+    </ol>
+</nav>
+
 <div class="container col-12 justify-content-center">
     <div class="row">
         <div class="col-4">
-            <a href="index.html">
+            <a href="Webshop.php">
                 <img src="images/Tegnebræt%208.png" width="80px" alt="Tilbage pil"></a>
         </div>
     </div>
