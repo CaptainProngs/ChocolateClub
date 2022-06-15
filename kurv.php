@@ -10,7 +10,7 @@
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/kurv.css" rel="stylesheet" type="text/css">
+    <link href="css/kurv.scss" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -54,7 +54,7 @@
                             </ol>
                         </nav>
                         <a href="webshop...">
-                            <i class=""><img src="images/Tegnebræt%208.png" alt="tilbage" width="30"></i></a>
+                            <i class=""><img src="images/pil.png" alt="tilbage" width="30"></i></a>
                     </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@
                 <div class="row">
                     <div class="col-6">
                         <div class="p-2">
-                            <img src="images/Produkt3.2.png" alt="" width="70"
+                            <img src="images/produkter3.webp" alt="" width="100"
                                  class="img-fluid">
                             <div class="ml-3 d-inline-block align-middle">
                                 <h5 class="mb-0"><a href="#" class="text-dark align-middle">Chokolade
@@ -94,7 +94,7 @@
                         <h5 class="mb-2 text-center">1</h5>
                     </div>
                     <div class="col-2 border-0 align-middle "><img src="images/spand.png" alt="fjern"
-                                                            width="30 px"></div>
+                                                                   width="30 px"></div>
                     <div class="col-2">
                         <h5 class="mb-2 text-center">85 DKK</h5>
                     </div>
