@@ -19,7 +19,7 @@
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bestilling.css" rel="stylesheet" type="text/css">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,14 +49,21 @@
     </div>
 </nav>
 
-<div class="container col-12 col-lg-6">
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="betaling.php">betaling</a></li>
+        <li class="breadcrumb-item active" aria-current="page">bestilling</li>
+    </ol>
+</nav>
+
+<div class="container">
     <a href="betaling.php">
         <img src="images/Tegnebræt%208.png" width="80px" alt="Tilbage pil"></a>
 </div>
 
 <div class="container col-12">
     <div class="row pt-3 gx-5">
-        <div class="pt-5 text-center">
+        <div class="text-center">
             <h1>Tak for din bestilling</h1>
         </div>
     </div>
@@ -72,7 +79,15 @@
     </div>
 </div>
 
-<br><br>
+<div class="container col-3 pt-5">
+    <div class="row">
+        <div class="text-center opacity-50;">
+            <h3>Din ordre er klar kl 12:00</h3>
+        </div>
+    </div>
+</div>
+
+<br> <br>
 
 <div class="container col-12">
     <div class="row">
@@ -84,18 +99,8 @@
 
 <br>
 
-<div class="container col-3 pt-5">
-    <div class="row">
-        <div class="text-center opacity-50;">
-            <h3>Din ordre er klar kl 12:00</h3>
-        </div>
-    </div>
-</div>
-
-<br>
-
 <div class="container col-12">
-    <div class="row pt-5">
+    <div class="row p-5">
         <div class="text-center">
             <h3>Den kan hente ved</h3>
             <h3>Agerskovvej 17, 4000 Roskilde</h3>
@@ -108,7 +113,6 @@
 
 <nav class="nav bg-footerfarve">
     <div class="row justify-content-evenly">
-
         <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title">Chocolate Club</h5>
