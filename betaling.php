@@ -57,6 +57,12 @@
                 <h3 class="display-5 mb-2 text-center">Gennemfør ordre</h3>
             </div>
             <div class="col-sm-6 mb-3 text-md-left">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Startside</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Betaling</li>
+                    </ol>
+                </nav>
                 <a href="kurv.php">
                     <i class=""><img src="images/Tegnebræt%208.png" alt="tilbage" width="30"></i></a>
             </div>

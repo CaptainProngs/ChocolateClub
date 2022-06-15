@@ -53,6 +53,7 @@
     <img src="images/Produktbanner.webp" width="100%" alt="banner">
 </div>
 
+
 <div class="container col-12 justify-content-center">
     <div class="row">
         <div class="col-4">
