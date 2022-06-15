@@ -164,7 +164,7 @@
                 <div class="p-3 shadow-sm">
                     <div class="row">
                         <div class="col text-center">
-                            <div class="col d-none d-sm-none d-lg-block"><img
+                            <div class="col d-none d-sm-none d-mb-block d-lg-block"><img
                                         src="https://i.imgur.com/OdxcctP.jpg"
                                         alt="" width="100"></div>
                             <input type="radio" name="rad" checked></div>
@@ -189,6 +189,7 @@
                 </div>
             </div>
         </div>
+
     </div>
 
     <div class="container bg-light mt-5 py-2 rounded d-mb-none d-lg-none">
@@ -210,10 +211,9 @@
                 <h5>14:30
                 </h5><input type="radio" name="rad"></div>
             <div class="col text-center">
-                <h5>16:30
-                </h5><input type="radio" name="rad"></div>
+                <h5>16:30</h5>
+                <input type="radio" name="rad"></div>
         </div>
-    </div>
     </div>
 
     <div class="container bg-light mt-5 py-2 rounded d-mb-none d-lg-none">
@@ -250,47 +250,47 @@
                 </div>
             </div>
         </div>
+    </div>
 
-
-        <div class="container bg-light mt-5 py-2 rounded">
-            <div class="row">
-                <div class="col-12">
-                    <h6 class="mb-2 text-start">Din bestilling</h6>
-                </div>
+    <div class="container bg-light mt-5 py-2 rounded">
+        <div class="row">
+            <div class="col-12">
+                <h6 class="mb-2 text-start">Din bestilling</h6>
             </div>
         </div>
-        <div class="container py-2 rounded shadow-sm">
-            <div class="row">
-                <div class="col-12">
-                    <div class="table-responsive">
-                        <table class="table">
-                            <tbody>
-                            <tr>
-                                <th scope="row" class="border-0">
-                                    <div class="p-2">
-                                        <img src="images/Produkt3.2.png" alt="" width="70"
-                                             class="img-fluid rounded shadow-sm">
-                                        <div class="ml-3 d-inline-block align-middle">
-                                            <h5 class="mb-0"><a href="#" class="text-dark d-inline-block align-middle">Chokolade
-                                                    fest</a></h5><span
-                                                    class="text-muted font-weight-normal font-italic d-block">Lækkert chokolade</span>
-                                        </div>
+    </div>
+    <div class="container py-2 rounded shadow-sm">
+        <div class="row">
+            <div class="col-12">
+                <div class="table-responsive">
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <th scope="row" class="border-0">
+                                <div class="p-2">
+                                    <img src="images/Produkt3.2.png" alt="" width="70"
+                                         class="img-fluid rounded shadow-sm">
+                                    <div class="ml-3 d-inline-block align-middle">
+                                        <h5 class="mb-0"><a href="#" class="text-dark d-inline-block align-middle">Chokolade
+                                                fest</a></h5><span
+                                                class="text-muted font-weight-normal font-italic d-block">Lækkert chokolade</span>
                                     </div>
-                                </th>
-                                <th scope="col" class="border-0">
-                                    <div class="py-2 d-none"></div>
-                                </th>
-                                <td class="border-0 align-middle"><strong>1</strong></td>
-                                <td class="border-0 align-middle">
-                                <td class="border-0 align-middle"><strong>85 DKK</strong>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                                </div>
+                            </th>
+                            <th scope="col" class="border-0">
+                                <div class="py-2 d-none"></div>
+                            </th>
+                            <td class="border-0 align-middle"><strong>1</strong></td>
+                            <td class="border-0 align-middle">
+                            <td class="border-0 align-middle"><strong>85 DKK</strong>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
+    </div>
 </section>
 
 
