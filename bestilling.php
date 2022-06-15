@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Sigende titel</title>
+    <title>Ordrebekræftelse</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -49,6 +49,11 @@
     </div>
 </nav>
 
+<div class="container col-12 col-lg-6">
+    <a href="betaling.php">
+        <img src="images/Tegnebræt%208.png" width="80px" alt="Tilbage pil"></a>
+</div>
+
 <div class="container col-12">
     <div class="row pt-3 gx-5">
         <div class="pt-5 text-center">
@@ -57,14 +62,7 @@
     </div>
 </div>
 
-<br>
-
-<div class="container col-12 col-lg-6">
-    <a href="index.html">
-    <img src="images/Tegnebræt%208.png" width="80px" alt="Tilbage pil"></a>
-</div>
-
-<br>
+<br><br>
 
 <div class="container col-12">
     <div class="row">
