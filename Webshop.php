@@ -49,7 +49,7 @@
 </nav>
 
 
-<a class="nav-link pil justify-content-start col-1" href="index.html"><img src="images/Tegnebræt%208.png"></a>
+<a class="nav-link pil justify-content-start" href="index.html"><img src="images/pil.png"></a>
 <div class="container-fluid">
     <div class="row">
         <div class="col justify-content-lg-start">
@@ -92,7 +92,7 @@
             </div>
         </div>
         <div class="col-auto">
-            <a class="nav-link justify-content-end col-1" href="#"><img src="images/Sorterikon.png"></a>
+            <a class="nav-link justify-content-end" href="#"><img src="images/Sorterikon.png"></a>
         </div>
     </div>
 </div>
@@ -100,9 +100,9 @@
 <!-- cards/ product Lg -->
 <div class="cards container-fluid flex-wrap p-3">
     <div class="row">
-        <div class="col-lg-4 col-md-4 col-6 p-3">
-            <div class="card shadow" style="width: 18rem;">
-                <a href="produktside.php"><img src="images/Produkt3.2.png" class="card-img-top" alt="product1"></a>
+        <div class="col-lg-4 col-md-4 col-10 p-3">
+            <div class="card shadow">
+                <a href="produktside.php"><img src="images/Produkt3.2.webp" class="card-img-top" alt="product1"></a>
                 <div class="card-body">
                     <h5 class="card-title">Chokolade bar</h5>
                     <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
@@ -110,8 +110,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-6 p-3">
-            <div class="card shadow" style="width: 18rem;">
+        <div class="col-lg-4 col-md-4 col-10 p-3">
+            <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkt1.2.png" class="card-img-top" alt="product2"></a>
                 <div class="card-body">
                     <h5 class="card-title">Blandet fine chokolader</h5>
@@ -120,8 +120,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-6 p-3">
-            <div class="card shadow" style="width: 18rem;">
+        <div class="col-lg-4 col-md-4 col-10 p-3">
+            <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkt4.2.png" class="card-img-top" alt="product3"></a>
                 <div class="card-body">
                     <h5 class="card-title">Chokolade bar hindbær</h5>
@@ -130,8 +130,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-6 p-3">
-            <div class="card shadow" style="width: 18rem;">
+        <div class="col-lg-4 col-md-4 col-10 p-3">
+            <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkt5.2.png" class="card-img-top" alt="product4"></a>
                 <div class="card-body">
                     <h5 class="card-title">Mint kopper</h5>
@@ -140,8 +140,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-6 p-3">
-            <div class="card shadow" style="width: 18rem;">
+        <div class="col-lg-4 col-md-4 col-10 p-3">
+            <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkt2.2.png" class="card-img-top" alt="product5"></a>
                 <div class="card-body">
                     <h5 class="card-title">Mint kopper</h5>
@@ -150,8 +150,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-6 p-3">
-            <div class="card shadow" style="width: 18rem;">
+        <div class="col-lg-4 col-md-4 col-10 p-3">
+            <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkt7.2.png" class="card-img-top" alt="product6"></a>
                 <div class="card-body">
                     <h5 class="card-title">Mint kopper</h5>
@@ -166,7 +166,7 @@
 <br><br>
 
 <div class="container-fluid p-0 mt-3">
-    <img src="images/Chokolade%20banner.png" alt="Hero">
+    <img src="images/banner%20rust.png" alt="Hero">
 </div>
 
 <br><br>

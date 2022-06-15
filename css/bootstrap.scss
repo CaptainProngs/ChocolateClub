@@ -11,6 +11,7 @@ $custom-colors: (
   "knapFarve": #6d6987,
   "footerfarve": #f6f9ed,
   "btnfarve": #ee7656,
+  "textcolor": #46414c,
 
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
