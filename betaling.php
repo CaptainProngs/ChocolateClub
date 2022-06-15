@@ -10,7 +10,7 @@
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/kurv.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -57,12 +57,17 @@
                 <h3 class="display-5 mb-2 text-center">Gennemfør ordre</h3>
             </div>
             <div class="col-sm-6 mb-3 text-md-left">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Startside</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Betaling</li>
+                    </ol>
+                </nav>
                 <a href="kurv.php">
                     <i class=""><img src="images/Tegnebræt%208.png" alt="tilbage" width="30"></i></a>
             </div>
         </div>
     </div>
-
 
 
     <form>
@@ -136,39 +141,55 @@
                 <h6 class="p-2 text-start bg-light">Vælg betalingsmetode</h6>
             </div>
         </div>
-        <div class="row gx-5 align-items-center">
+        <div class="row gx-5 align-items-start">
             <div class="col">
-                <div class="p-3 shadow-sm">
+                <div class="p-3 shadow-sm pb-5">
                     <div class="row">
-                    <h5 class="col">10:30</h5>
-                    <h5 class="col">12:30</h5>
-                    <h5 class="col">14:30</h5>
-                    <h5 class="col">16:30</h5>
+                        <div class="col text-center">
+                            <h5>12:30
+                            </h5><input type="radio" name="rad" checked></div>
+                        <div class="col text-center">
+                            <h5>13:30
+                            </h5><input type="radio" name="rad"></div>
+                        <div class="col text-center">
+                            <h5>14:30
+                            </h5><input type="radio" name="rad"></div>
+                        <div class="col text-center">
+                            <h5>16:30
+                            </h5><input type="radio" name="rad"></div>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="p-3 shadow-sm">
                     <div class="row">
-                    <div class="col d-none d-sm-none d-lg-block"><img
-                                src="https://i.imgur.com/OdxcctP.jpg"
-                                alt="" width="100"></div>
-                    <div class="col d-none d-sm-none d-lg-block"><img
-                                src="https://i.imgur.com/5TqiRQV.jpg"
-                                alt="" width="100"></div>
-
-                    <div class="col d-none d-sm-none d-lg-block"><img
-                                src="https://i.imgur.com/WIAP9Ku.jpg"
-                                alt="" width="100"></div>
-
-                    <div class="col d-none d-sm-none d-lg-block"><img
-                                src="https://cdn.mobilepay.dk/res-website/img/icon/icon_mp_blue_monochrome.svg" alt=""
-                                width="40">
-                    </div>
+                        <div class="col text-center">
+                            <div class="col d-none d-sm-none d-mb-block d-lg-block"><img
+                                        src="https://i.imgur.com/OdxcctP.jpg"
+                                        alt="" width="100"></div>
+                            <input type="radio" name="rad" checked></div>
+                        <div class="col text-center">
+                            <div class="col d-none d-sm-none d-lg-block"><img
+                                        src="https://i.imgur.com/5TqiRQV.jpg"
+                                        alt="" width="100"></div>
+                            <input type="radio" name="rad"></div>
+                        <div class="col text-center">
+                            <div class="col d-none d-sm-none d-lg-block"><img
+                                        src="https://i.imgur.com/WIAP9Ku.jpg"
+                                        alt="" width="100"></div>
+                            <input type="radio" name="rad"></div>
+                        <div class="col text-center">
+                            <div class="col d-none d-sm-none d-lg-block"><img
+                                        src="https://cdn.mobilepay.dk/res-website/img/icon/icon_mp_blue_monochrome.svg"
+                                        alt=""
+                                        width="40">
+                                <input type="radio" name="rad"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
 
     <div class="container bg-light mt-5 py-2 rounded d-mb-none d-lg-none">
@@ -178,12 +199,20 @@
             </div>
         </div>
     </div>
-    <div class="container shadow-sm p-5 d-mb-none d-lg-none">
-        <div class="row align-items-center">
-            <h5 class="col-3  ">10:30</h5>
-            <h5 class="col-3  ">12:30</h5>
-            <h5 class="col-3  ">14:30</h5>
-            <h5 class="col-3 ">16:30</h5>
+    <div class="container shadow-sm pb-6 d-mb-none d-lg-none">
+        <div class="row">
+            <div class="col text-center">
+                <h5>12:30
+                </h5><input type="radio" name="rad" checked></div>
+            <div class="col text-center">
+                <h5>13:30
+                </h5><input type="radio" name="rad"></div>
+            <div class="col text-center">
+                <h5>14:30
+                </h5><input type="radio" name="rad"></div>
+            <div class="col text-center">
+                <h5>16:30</h5>
+                <input type="radio" name="rad"></div>
         </div>
     </div>
 
@@ -197,15 +226,31 @@
 
     <div class="container shadow-sm p-5 d-mb-none d-lg-none">
         <div class="row align-items-center">
-            <div class="col-3 text-center"><img src="https://i.imgur.com/OdxcctP.jpg" alt=""></div>
-            <div class="col-3 text-center"><img src="https://i.imgur.com/5TqiRQV.jpg" alt=""></div>
-            <div class="col-3 text-center"><img src="https://i.imgur.com/WIAP9Ku.jpg" alt=""></div>
-            <div class="col-3 text-center"><img
-                        src="https://cdn.mobilepay.dk/res-website/img/icon/icon_mp_blue_monochrome.svg" alt=""
-                        width="40"></div>
+            <div class="row">
+                <div class="col text-center">
+                    <div class="col"><img
+                                src="https://i.imgur.com/OdxcctP.jpg"
+                                alt="" width="100"></div>
+                    <input type="radio" name="rad" checked></div>
+                <div class="col text-center">
+                    <div class="col"><img
+                                src="https://i.imgur.com/5TqiRQV.jpg"
+                                alt="" width="100"></div>
+                    <input type="radio" name="rad"></div>
+                <div class="col text-center">
+                    <div class="col"><img
+                                src="https://i.imgur.com/WIAP9Ku.jpg"
+                                alt="" width="100"></div>
+                    <input type="radio" name="rad"></div>
+                <div class="col text-center">
+                    <div class="col"><img
+                                src="https://cdn.mobilepay.dk/res-website/img/icon/icon_mp_blue_monochrome.svg" alt=""
+                                width="40">
+                        <input type="radio" name="rad"></div>
+                </div>
+            </div>
         </div>
     </div>
-
 
     <div class="container bg-light mt-5 py-2 rounded">
         <div class="row">
@@ -223,7 +268,7 @@
                         <tr>
                             <th scope="row" class="border-0">
                                 <div class="p-2">
-                                    <img src="images/SoMeA.png" alt="" width="70"
+                                    <img src="images/Produkt3.2.png" alt="" width="70"
                                          class="img-fluid rounded shadow-sm">
                                     <div class="ml-3 d-inline-block align-middle">
                                         <h5 class="mb-0"><a href="#" class="text-dark d-inline-block align-middle">Chokolade

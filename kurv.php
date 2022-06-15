@@ -10,7 +10,7 @@
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/kurv.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -47,6 +47,12 @@
                     <p class="mb-5 text-center">
                         <i class="text-info font-weight-bold">1</i> Vare i din kurv</p>
                     <div class="col-sm-6 mb-3 mb-m-1 order-md-1 text-md-left">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Startside</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Kurv</li>
+                            </ol>
+                        </nav>
                         <a href="webshop...">
                             <i class=""><img src="images/Tegnebræt%208.png" alt="tilbage" width="30"></i></a>
                     </div>
@@ -75,7 +81,7 @@
                 <div class="row">
                     <div class="col-6">
                         <div class="p-2">
-                            <img src="images/SoMeA.png" alt="" width="70"
+                            <img src="images/Produkt3.2.png" alt="" width="70"
                                  class="img-fluid">
                             <div class="ml-3 d-inline-block align-middle">
                                 <h5 class="mb-0"><a href="#" class="text-dark align-middle">Chokolade
@@ -98,7 +104,7 @@
 
         <div class="container mt-2">
             <div class="row">
-                <div class="col-4 col-md-3 col-lg-2 py-2 bg-light rounded shadow-sm"> Click & Collect</div>
+                <div class="col-4 col-md-3 col-lg-2 py-2 bg-light rounded shadow-sm">Click & Collect</div>
                 <div class="col-1"></div>
                 <div class="col-4 col-md-3 col-lg-2 py-2 bg-light rounded shadow-sm"> Levering</div>
                 <div class="col-3 col-md-6 col-lg-8"></div>
@@ -107,7 +113,6 @@
         </div>
     </div>
 </section>
-
 
 <section class="">
     <div class="container mt-5 py-2 rounded">
