@@ -59,47 +59,43 @@
                 <div class="col-6">
                     <h4 class="mb-2 text-start">Produkt</h4>
                 </div>
-                <div class="col-3">
-                    <h6 class="mb-2 text-center">Antal</h6>
+                <div class="col-2">
+                    <h5 class="mb-2 text-center">Antal</h5>
                 </div>
-                <div class="col-3">
-                    <h6 class="mb-2 text-center">Pris</h6>
+                <div class="col-2">
+                    <h6 class="mb-2"></h6>
+                </div>
+                <div class="col-2">
+                    <h5 class="mb-2 text-center">Pris</h5>
                 </div>
             </div>
         </div>
         <div class="container py-2 rounded shadow-sm">
-            <div class="row">
-                <div class="col-12">
-                    <div class="table-responsive">
-                        <table class="table">
-                            <tbody>
-                            <tr>
-                                <th scope="row" class="border-0">
-                                    <div class="p-2">
-                                        <img src="images/SoMeA.png" alt="" width="70"
-                                             class="img-fluid rounded shadow-sm">
-                                        <div class="ml-3 d-inline-block align-middle">
-                                            <h5 class="mb-0"><a href="#" class="text-dark align-middle">Chokolade
-                                                    fest</a></h5><span
-                                                    class="text-muted font-weight-normal font-italic d-block">Lækkert chokolade</span>
-                                        </div>
-                                    </div>
-                                </th>
-                                <th scope="col" class="border-0">
-                                    <div class="py-2 d-none"></div>
-                                </th>
-                                <td class="border-0 align-middle"><strong>1</strong></td>
-                                <td class="border-0 align-middle"><img src="images/spand.png" alt="fjern"
-                                                                       width="30 px">
-                                <td class="border-0 align-middle"><strong>85 DKK</strong>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
+            <div class="container mt-5 py-2 rounded">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="p-2">
+                            <img src="images/SoMeA.png" alt="" width="70"
+                                 class="img-fluid">
+                            <div class="ml-3 d-inline-block align-middle">
+                                <h5 class="mb-0"><a href="#" class="text-dark align-middle">Chokolade
+                                        fest</a></h5><span
+                                        class="text-muted font-weight-normal font-italic d-block">Lækkert chokolade</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <h5 class="mb-2 text-center">1</h5>
+                    </div>
+                    <div class="col-2 border-0 align-middle "><img src="images/spand.png" alt="fjern"
+                                                            width="30 px"></div>
+                    <div class="col-2">
+                        <h5 class="mb-2 text-center">85 DKK</h5>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="container mt-2">
             <div class="row">
                 <div class="col-4 col-md-3 col-lg-2 py-2 bg-light rounded shadow-sm"> Click & Collect</div>
@@ -124,9 +120,10 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <label><textarea name="" cols="64" rows="3"
-                                 class="form-control "></textarea></label>
+            <div class="col-12 col-lg-6">
+                <label style="width: 100% !important;">
+                    <textarea class="form-control" name="" cols="64" rows="3"
+                              style="width: 100% !important;"></textarea></label>
             </div>
         </div>
     </div>
@@ -145,7 +142,7 @@
             <div class="col-12">
                 <h5>Gå til næste side for at vælge afhentningstidspunkt</h5>
                 <br>
-                <a href="bestilling.php" class=" btn btn-primary mb-4 btn-lg pl-5 pr-5">Gå til
+                <a href="betaling.php" class=" btn btn-primary mb-4 btn-lg pl-5 pr-5">Gå til
                     betaling</a>
             </div>
         </div>

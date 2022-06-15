@@ -139,39 +139,37 @@
         <div class="row gx-5 align-items-center">
             <div class="col">
                 <div class="p-3 shadow-sm">
-                    <h5 class="">10:30</h5>
-                    <h5 class="">12:30</h5>
-                    <h5 class="">14:30</h5>
-                    <h5 class="">16:30</h5>
+                    <div class="row">
+                    <h5 class="col">10:30</h5>
+                    <h5 class="col">12:30</h5>
+                    <h5 class="col">14:30</h5>
+                    <h5 class="col">16:30</h5>
+                    </div>
                 </div>
             </div>
             <div class="col">
                 <div class="p-3 shadow-sm">
-                    <div class="d-none d-sm-none d-lg-block"><img
+                    <div class="row">
+                    <div class="col d-none d-sm-none d-lg-block"><img
                                 src="https://i.imgur.com/OdxcctP.jpg"
                                 alt="" width="100"></div>
-                    <div class="d-none d-sm-none d-lg-block"><img
+                    <div class="col d-none d-sm-none d-lg-block"><img
                                 src="https://i.imgur.com/5TqiRQV.jpg"
                                 alt="" width="100"></div>
 
-                    <div class="d-none d-sm-none d-lg-block"><img
+                    <div class="col d-none d-sm-none d-lg-block"><img
                                 src="https://i.imgur.com/WIAP9Ku.jpg"
                                 alt="" width="100"></div>
 
-                    <div class="d-none d-sm-none d-lg-block"><img
+                    <div class="col d-none d-sm-none d-lg-block"><img
                                 src="https://cdn.mobilepay.dk/res-website/img/icon/icon_mp_blue_monochrome.svg" alt=""
                                 width="40">
+                    </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
-
-
 
     <div class="container bg-light mt-5 py-2 rounded d-mb-none d-lg-none">
         <div class="row">
@@ -262,9 +260,10 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <label><textarea name="" cols="64" rows="3"
-                                 class="form-control bg-light">Yaaaas Queen</textarea></label>
+            <div class="col-12 col-lg-6">
+                <label style="width: 100% !important;">
+                    <textarea class="form-control" name="" cols="64" rows="3" disabled=""
+                              style="width: 100% !important;"></textarea></label>
             </div>
         </div>
     </div>
