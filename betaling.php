@@ -302,9 +302,8 @@
                                     <img src="images/produkter3.webp" alt="" width="70"
                                          class="img-fluid rounded shadow-sm">
                                     <div class="ml-3 d-inline-block align-middle">
-                                        <h5 class="mb-0"><a href="#" class="text-dark d-inline-block align-middle">Chokolade
-                                                fest</a></h5><span
-                                                class="text-muted font-weight-normal font-italic d-block">Lækkert chokolade</span>
+                                        <h5 class="mb-0"><a href="#" class="text-dark d-inline-block align-middle">Multishot chocolate</a></h5><span
+                                                class="text-muted font-weight-normal font-italic d-block">21 lækre håndlavet forskellige fyldte mundgodter</span>
                                     </div>
                                 </div>
                             </th>
