@@ -56,11 +56,11 @@
         </div>
         <div class="col-4 text-center">
             <h1>404</h1>
-            <br>
+            <br><br>
             <h4>Hov der er sket en fejl</h4>
-            <br>
+            <br><br>
             <h4>Klik på pillen til at komme tilbage</h4>
-            <br>
+            <br><br>
             <h4>eller brug vores menu-bar til at komme hjem</h4>
         </div>
         <div class="col-4">

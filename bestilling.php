@@ -57,10 +57,14 @@
     </div>
 </div>
 
-<div class="container col-12 col-lg-4">
+<br>
+
+<div class="container col-12 col-lg-6">
     <a href="index.html">
     <img src="images/Tegnebræt%208.png" width="80px" alt="Tilbage pil"></a>
 </div>
+
+<br>
 
 <div class="container col-12">
     <div class="row">
@@ -70,6 +74,8 @@
     </div>
 </div>
 
+<br><br>
+
 <div class="container col-12">
     <div class="row">
         <div class="justify-content-end">
@@ -78,6 +84,8 @@
     </div>
 </div>
 
+<br>
+
 <div class="container col-3 pt-5">
     <div class="row">
         <div class="text-center opacity-50;">
@@ -85,6 +93,8 @@
         </div>
     </div>
 </div>
+
+<br>
 
 <div class="container col-12">
     <div class="row pt-5">

@@ -53,24 +53,33 @@
     <img src="images/Produktbanner.webp" width="100%" alt="banner">
 </div>
 
-
 <div class="container col-12 justify-content-center">
+    <div class="row">
+        <div class="col-4">
+            <a href="index.html">
+                <img src="images/Tegnebræt%208.png" width="80px" alt="Tilbage pil"></a>
+        </div>
+    </div>
+
+<div class="container col-12 justify-content-center pt-5">
     <div class="row pt-3 gx-5">
 
-        <div class="col-6 shadow p-0 bg-body rounded ">
-            <img src="images/Produkt.webp" class="rounded mx-auto d-block" width="400px" alt="produkt">
+        <div class="col-6 ">
+            <img src="images/Produkt.webp" class="rounded mx-auto d-block shadow p-0 bg-body rounded" width="400px" alt="produkt">
         </div>
 
         <div class="col-6">
             <div class="pt-5">
                 <h1>Smagsfyldte chokolade</h1>
-                <h4>111 DKK</h4>
-                <h6>Lorem ipsum</h6>
-                <h6>sadasdsaf</h6>
-                <h6>sadasdsaf</h6>
-                <h6>sadasdsaf</h6>
+                <br>
+                <h4>85 DKK</h4>
+                <br>
+                <h6>Smagsfuldte chokolade med</h6>
+                <h6>med smage til en hver person</h6>
+                <h6>denne box indeholder 24 lækre chokolader</h6>
             </div>
 
+            <br><br>
 
             <div class="pt-5 mt-5">
                 <h6>Antal</h6>
@@ -79,14 +88,14 @@
                 <button type="button" class="btn btn-light btn-outline-secondary">-</button>
             </div>
 
-            <br><br>
-
-            <div class="col-6 pt-5">
-                <button type="button" class="btn btn-knapFarve">Læg i kurv</button>
+            <div class="col-6 pt-1">
+                <button type="button" class="btn btn-knapFarve px-4">Læg i kurv</button>
             </div>
         </div>
     </div>
 </div>
+
+<br><br><br><br><br><br>
 
 <div class="container-fluid d-lg-none d-md-none">
     <h3 class="header p-3">Andre kunder har kigget på</h3>
