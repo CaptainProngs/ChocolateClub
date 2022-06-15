@@ -147,16 +147,24 @@
                     <div class="row">
                         <div class="col text-center">
                             <h5>12:30
-                            </h5><input type="radio" name="rad" checked></div>
+                            </h5><label>
+                                <input type="radio" name="rad" checked>
+                            </label></div>
                         <div class="col text-center">
                             <h5>13:30
-                            </h5><input type="radio" name="rad"></div>
+                            </h5><label>
+                                <input type="radio" name="rad">
+                            </label></div>
                         <div class="col text-center">
                             <h5>14:30
-                            </h5><input type="radio" name="rad"></div>
+                            </h5><label>
+                                <input type="radio" name="rad">
+                            </label></div>
                         <div class="col text-center">
                             <h5>16:30
-                            </h5><input type="radio" name="rad"></div>
+                            </h5><label>
+                                <input type="radio" name="rad">
+                            </label></div>
                     </div>
                 </div>
             </div>
@@ -167,23 +175,31 @@
                             <div class="col d-none d-sm-none d-mb-block d-lg-block"><img
                                         src="https://i.imgur.com/OdxcctP.jpg"
                                         alt="" width="100"></div>
-                            <input type="radio" name="rad" checked></div>
+                            <label>
+                                <input type="radio" name="rad" checked>
+                            </label></div>
                         <div class="col text-center">
                             <div class="col d-none d-sm-none d-lg-block"><img
                                         src="https://i.imgur.com/5TqiRQV.jpg"
                                         alt="" width="100"></div>
-                            <input type="radio" name="rad"></div>
+                            <label>
+                                <input type="radio" name="rad">
+                            </label></div>
                         <div class="col text-center">
                             <div class="col d-none d-sm-none d-lg-block"><img
                                         src="https://i.imgur.com/WIAP9Ku.jpg"
                                         alt="" width="100"></div>
-                            <input type="radio" name="rad"></div>
+                            <label>
+                                <input type="radio" name="rad">
+                            </label></div>
                         <div class="col text-center">
                             <div class="col d-none d-sm-none d-lg-block"><img
                                         src="https://cdn.mobilepay.dk/res-website/img/icon/icon_mp_blue_monochrome.svg"
                                         alt=""
                                         width="40">
-                                <input type="radio" name="rad"></div>
+                                <label>
+                                    <input type="radio" name="rad">
+                                </label></div>
                         </div>
                     </div>
                 </div>
@@ -202,16 +218,24 @@
         <div class="row">
             <div class="col text-center">
                 <h5>12:30
-                </h5><input type="radio" name="rad" checked></div>
+                </h5><label>
+                    <input type="radio" name="rad" checked>
+                </label></div>
             <div class="col text-center">
                 <h5>13:30
-                </h5><input type="radio" name="rad"></div>
+                </h5><label>
+                    <input type="radio" name="rad">
+                </label></div>
             <div class="col text-center">
                 <h5>14:30
-                </h5><input type="radio" name="rad"></div>
+                </h5><label>
+                    <input type="radio" name="rad">
+                </label></div>
             <div class="col text-center">
                 <h5>16:30</h5>
-                <input type="radio" name="rad"></div>
+                <label>
+                    <input type="radio" name="rad">
+                </label></div>
         </div>
     </div>
 
@@ -230,22 +254,30 @@
                     <div class="col"><img
                                 src="https://i.imgur.com/OdxcctP.jpg"
                                 alt="" width="100"></div>
-                    <input type="radio" name="rad" checked></div>
+                    <label>
+                        <input type="radio" name="rad" checked>
+                    </label></div>
                 <div class="col text-center">
                     <div class="col"><img
                                 src="https://i.imgur.com/5TqiRQV.jpg"
                                 alt="" width="100"></div>
-                    <input type="radio" name="rad"></div>
+                    <label>
+                        <input type="radio" name="rad">
+                    </label></div>
                 <div class="col text-center">
                     <div class="col"><img
                                 src="https://i.imgur.com/WIAP9Ku.jpg"
                                 alt="" width="100"></div>
-                    <input type="radio" name="rad"></div>
+                    <label>
+                        <input type="radio" name="rad">
+                    </label></div>
                 <div class="col text-center">
                     <div class="col"><img
                                 src="https://cdn.mobilepay.dk/res-website/img/icon/icon_mp_blue_monochrome.svg" alt=""
                                 width="40">
-                        <input type="radio" name="rad"></div>
+                        <label>
+                            <input type="radio" name="rad">
+                        </label></div>
                 </div>
             </div>
         </div>
