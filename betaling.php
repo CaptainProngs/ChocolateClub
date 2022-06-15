@@ -10,7 +10,7 @@
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/kurv.css" rel="stylesheet" type="text/css">
+    <link href="css/kurv.scss" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -268,7 +268,7 @@
                         <tr>
                             <th scope="row" class="border-0">
                                 <div class="p-2">
-                                    <img src="images/Produkt3.2.png" alt="" width="70"
+                                    <img src="images/produkter3.webp" alt="" width="70"
                                          class="img-fluid rounded shadow-sm">
                                     <div class="ml-3 d-inline-block align-middle">
                                         <h5 class="mb-0"><a href="#" class="text-dark d-inline-block align-middle">Chokolade

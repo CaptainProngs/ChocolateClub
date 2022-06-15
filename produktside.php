@@ -81,9 +81,9 @@
                 <br>
                 <h4>85 DKK</h4>
                 <br>
-                <h6>Smagsfuldte chokolade med</h6>
-                <h6>med smage til en hver person</h6>
-                <h6>denne box indeholder 24 lækre chokolader</h6>
+                <p>Smagsfuldte chokolade med</p>
+                <p>med smage til en hver person</p>
+                <p>denne box indeholder 24 lækre chokolader</p>
             </div>
 
             <br><br>
@@ -215,6 +215,15 @@
         </div>
     </div>
 </div>
+
+    <div class="container">
+        <div class="row justify-content-end">
+            <div class="col-3">
+                <p>@ChocolateClub</p>
+                <img src="images/SoMelogo.png" alt="Sociale Medier">
+            </div>
+        </div>
+    </div>
 
 <a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/kort.png" alt="Map"></a>
 <a class="container-fluid nav-link d-none d-lg-block p-0 m-0" href="#"><img src="images/KortLG.png" alt="largemap"></a>
