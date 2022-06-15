@@ -29,6 +29,26 @@
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand ms-2" href="index.html"><img src="images/Logo.png" alt="Home"></a>
+        <div class="order-lg-last d-flex">
+            <a class="nav-link " href="kurv.php"><img src="images/Kurv.png" alt="cart"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Shop</a>
+                <a class="nav-link" href="chocolatiers.php">Chocolatiers</a>
+                <a class="nav-link" href="Kontakt.php">Kontakt</a>
+                <a class="nav-link" href="#">Speciel bestilling</a>
+            </div>
+        </div>
+    </div>
+</nav>
 
 <section class="pt-5 pb-5">
     <div class="container">
@@ -278,6 +298,6 @@
 </section>
 
 
-
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
