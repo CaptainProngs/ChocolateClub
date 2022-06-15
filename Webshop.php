@@ -55,8 +55,8 @@
         <div class="col justify-content-lg-start">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Startside</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Webshop</li>
+                    <li class="breadcrumb-item col-lg-10"><a href="index.html">Startside</a></li>
+                    <li class="breadcrumb-item active col-lg-2" aria-current="page">Webshop</li>
                 </ol>
             </nav>
         </div>
@@ -76,7 +76,7 @@
 </div>
 
 <div class="container-fluid sorter">
-    <div class="row">
+    <div class="row justify-content-end">
         <div class="col-auto">
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle bg-light text-dark" type="button"
@@ -91,16 +91,16 @@
                 </ul>
             </div>
         </div>
-        <div class="col-auto">
-            <a class="nav-link justify-content-end" href="#"><img src="images/Sorterikon.png"></a>
+        <div class="col-auto p-0">
+            <a class="nav-link justify-content-end p-0" href="#"><img src="images/Sorterikon.png"></a>
         </div>
     </div>
 </div>
 
 <!-- cards/ product Lg -->
-<div class="cards container-fluid flex-wrap p-3">
+<div class="cards container-fluid flex-wrap p-5">
     <div class="row">
-        <div class="col-lg-4 col-md-4 col-10 p-3">
+        <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkt3.2.webp" class="card-img-top" alt="product1"></a>
                 <div class="card-body">
@@ -110,7 +110,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-10 p-3">
+        <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkt1.2.png" class="card-img-top" alt="product2"></a>
                 <div class="card-body">
@@ -120,7 +120,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-10 p-3">
+        <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkt4.2.png" class="card-img-top" alt="product3"></a>
                 <div class="card-body">
@@ -130,7 +130,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-10 p-3">
+        <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkt5.2.png" class="card-img-top" alt="product4"></a>
                 <div class="card-body">
@@ -140,7 +140,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-10 p-3">
+        <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkt2.2.png" class="card-img-top" alt="product5"></a>
                 <div class="card-body">
@@ -150,7 +150,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-10 p-3">
+        <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkt7.2.png" class="card-img-top" alt="product6"></a>
                 <div class="card-body">
@@ -169,14 +169,18 @@
     <img src="images/banner%20rust.png" alt="Hero">
 </div>
 
-<br><br>
+<br>
+<div class="container-fluid m-3">
+    <p>Til enhver særlig begivenheder, står Frederik Volmar til rådighed, med sine kunstfærdigheder.</p>
+    <p>For mere information eller et tilbud, kontakt os via bestilling.</p>
+</div>
 
 
 <!-- cards/ Speciel -->
-<div class="cards container-fluid flex-wrap p-3">
+<div class="cards container-fluid flex-wrap p-5 mx-auto justify-content-center">
     <div class="row">
-        <div class="col-lg-4 col-md-4 col-6 p-3">
-            <div class="card shadow" style="width: 18rem;">
+        <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
+            <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkt2.png" class="card-img-top" alt="product7"></a>
                 <div class="card-body">
                     <h5 class="card-title">Chokolade bar</h5>
@@ -185,8 +189,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-6 p-3">
-            <div class="card shadow" style="width: 18rem;">
+        <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
+            <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkt8.png" class="card-img-top" alt="product8"></a>
                 <div class="card-body">
                     <h5 class="card-title">Blandet fine chokolader</h5>
@@ -195,8 +199,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-6 p-3">
-            <div class="card shadow" style="width: 18rem;">
+        <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
+            <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkt5.png" class="card-img-top" alt="product9"></a>
                 <div class="card-body">
                     <h5 class="card-title">Chokolade bar hindbær</h5>
@@ -205,49 +209,23 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-6 p-3">
-            <div class="card shadow" style="width: 18rem;">
-                <a href="produktside.php"><img src="images/SoMeE.png" class="card-img-top" alt="product10"></a>
-                <div class="card-body">
-                    <h5 class="card-title">Mint kopper</h5>
-                    <h6 class="card-text">Cremet chkolade kopper med et stref af mint</h6>
-                    <p class="card-text">Lavet af Amalie Mikkelsen</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-6 p-3">
-            <div class="card shadow" style="width: 18rem;">
-                <a href="produktside.php"><img src="images/Produkt4.png" class="card-img-top" alt="product11"></a>
-                <div class="card-body">
-                    <h5 class="card-title">Mint kopper</h5>
-                    <h6 class="card-text">Cremet chkolade kopper med et stref af mint</h6>
-                    <p class="card-text">Lavet af Amalie Mikkelsen</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-6 p-3">
-            <div class="card shadow" style="width: 18rem;">
-                <a href="produktside.php"><img src="images/Produkt6.png" class="card-img-top" alt="product12"></a>
-                <div class="card-body">
-                    <h5 class="card-title">Mint kopper</h5>
-                    <h6 class="card-text">Cremet chkolade kopper med et stref af mint</h6>
-                    <p class="card-text">Lavet af Amalie Mikkelsen</p>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 
-<br><br><br><br>
+<div class="container-fluid mx-auto justify-content-center">
+        <a href="#" class="btn btn-knapFarve mx-auto">BESTIL</a>
+</div>
+
+<br><br>
 
 <!-- FOOTER -->
 <a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/kort.png" alt="Map"></a>
 <a class="container-fluid nav-link d-none d-lg-block p-0 m-0" href="#"><img src="images/KortLG.png" alt="largemap"></a>
 
-<nav class="nav bg-footerfarve">
-    <div class="row justify-content-evenly">
+<nav class="nav bg-footerfarve m-0">
+    <div class="row justify-content-evenly mx-auto">
 
-        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve" style="width: 18rem;">
+        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve p-0" style="">
             <div class="card-body">
                 <h5 class="card-title">Chocolate Club</h5>
                 <h6 class="card-subtitle mb-2 text-muted">
@@ -258,7 +236,7 @@
             </div>
         </div>
 
-        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve" style="width: 18rem;">
+        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve p-0" style="">
             <div class="card-body">
                 <h5 class="card-title">Åbningstider</h5>
                 <p class="card-text">
@@ -272,7 +250,7 @@
             </div>
         </div>
 
-        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve" style="width: 18rem;">
+        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve p-0" style="">
             <div class="card-body">
                 <h5 class="card-title">Kundeservice</h5>
                 <a class="nav-link p-0" href="#">Fragt og levering</a>
