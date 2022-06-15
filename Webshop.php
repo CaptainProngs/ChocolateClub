@@ -77,7 +77,7 @@
 
 <div class="container-fluid sorter">
     <div class="row">
-        <div class="col">
+        <div class="col-auto">
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle bg-light text-dark" type="button"
                         id="dropdownMenuButton1"
@@ -91,7 +91,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col">
+        <div class="col-auto">
             <a class="nav-link justify-content-end col-1" href="#"><img src="images/Sorterikon.png"></a>
         </div>
     </div>
