@@ -92,7 +92,7 @@
             </div>
         </div>
         <div class="col-auto p-0">
-            <a class="nav-link justify-content-end p-0" href="#"><img src="images/Sorterikon.png"></a>
+            <a class="nav-link justify-content-end p-0" href="#"><img src="images/Sorterikon.png" alt="sorter"></a>
         </div>
     </div>
 </div>
