@@ -53,8 +53,8 @@
                                 <li class="breadcrumb-item active" aria-current="page">Kurv</li>
                             </ol>
                         </nav>
-                        <a href="webshop...">
-                            <i class=""><img src="images/Tegnebræt%208.png" alt="tilbage" width="30"></i></a>
+                        <a href="Webshop.php">
+                            <i class=""><img src="images/pil.png" alt="tilbage" width="30"></i></a>
                     </div>
                 </div>
             </div>
@@ -94,7 +94,7 @@
                         <h5 class="mb-2 text-center">1</h5>
                     </div>
                     <div class="col-2 border-0 align-middle "><img src="images/spand.png" alt="fjern"
-                                                            width="30 px"></div>
+                                                                   width="30 px"></div>
                     <div class="col-2">
                         <h5 class="mb-2 text-center">85 DKK</h5>
                     </div>
@@ -153,6 +153,7 @@
         </div>
     </div>
 </section>
+
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
