@@ -18,7 +18,7 @@
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/404.scss" rel="stylesheet" type="text/css">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,7 +26,6 @@
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand ms-2" href="index.html"><img src="images/Logo.png" alt="Home"></a>
@@ -54,7 +53,7 @@
             <a href="index.html">
                 <img src="images/Tegnebræt%208.png" width="80px" alt="Tilbage pil"></a>
         </div>
-        <div class="col-4 text-center">
+        <div class="col-4 text-center pt-5">
             <h1>404</h1>
             <br><br>
             <h4>Hov der er sket en fejl</h4>
