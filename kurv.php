@@ -104,7 +104,7 @@
 
         <div class="container mt-2">
             <div class="row">
-                <div class="col-4 col-md-3 col-lg-2 py-2 bg-light rounded shadow-sm"> Click & Collect</div>
+                <div class="col-4 col-md-3 col-lg-2 py-2 bg-light rounded shadow-sm">Click & Collect</div>
                 <div class="col-1"></div>
                 <div class="col-4 col-md-3 col-lg-2 py-2 bg-light rounded shadow-sm"> Levering</div>
                 <div class="col-3 col-md-6 col-lg-8"></div>
