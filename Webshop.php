@@ -48,17 +48,21 @@
     </div>
 </nav>
 
-<div class="container">
-    <a class="nav-link pil justify-content-start col-1" href="index.html"><img src="images/Tegnebræt%208.png"></a>
 
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Startside</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Webshop</li>
-        </ol>
-    </nav>
+<a class="nav-link pil justify-content-start col-1" href="index.html"><img src="images/Tegnebræt%208.png"></a>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col justify-content-lg-start">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Startside</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Webshop</li>
+                </ol>
+            </nav>
+        </div>
 
-    <h2 class="col-3 justify-content-end">Webshop</h2>
+        <div class="col justify-content-end"><h2>Webshop</h2></div>
+    </div>
 </div>
 
 
@@ -73,18 +77,23 @@
 
 <div class="container-fluid sorter">
     <div class="row">
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle bg-light text-dark" type="button" id="dropdownMenuButton1"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                Sortering
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Populære</a></li>
-                <li><a class="dropdown-item" href="#">Pris faldende</a></li>
-                <li><a class="dropdown-item" href="#">Pris Stigende</a></li>
-            </ul>
+        <div class="col">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle bg-light text-dark" type="button"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                    Sortering
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Populære</a></li>
+                    <li><a class="dropdown-item" href="#">Pris faldende</a></li>
+                    <li><a class="dropdown-item" href="#">Pris Stigende</a></li>
+                </ul>
+            </div>
         </div>
-        <a class="nav-link justify-content-end col-1" href="#"><img src="images/Sorterikon.png"></a>
+        <div class="col">
+            <a class="nav-link justify-content-end col-1" href="#"><img src="images/Sorterikon.png"></a>
+        </div>
     </div>
 </div>
 
