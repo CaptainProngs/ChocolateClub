@@ -108,6 +108,15 @@
     </div>
 </div>
 
+<div class="container">
+    <div class="row justify-content-end">
+        <div class="col-3">
+            <p>@ChocolateClub</p>
+            <img src="images/SoMelogo.png" alt="Sociale Medier">
+        </div>
+    </div>
+</div>
+
 <a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/kort.png" alt="Map"></a>
 <a class="container-fluid nav-link d-none d-lg-block p-0 m-0" href="#"><img src="images/KortLG.png" alt="largemap"></a>
 
@@ -154,7 +163,6 @@
                 <a class="nav-link p-0" href="#">Cookies</a>
             </div>
         </div>
-
     </div>
 </nav>
 
