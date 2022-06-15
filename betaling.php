@@ -64,7 +64,7 @@
                     </ol>
                 </nav>
                 <a href="kurv.php">
-                    <i class=""><img src="images/Tegnebræt%208.png" alt="tilbage" width="30"></i></a>
+                    <i class=""><img src="images/pil.png" alt="tilbage" width="30"></i></a>
             </div>
         </div>
     </div>
@@ -189,7 +189,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 
     <div class="container bg-light mt-5 py-2 rounded d-mb-none d-lg-none">
