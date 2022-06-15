@@ -1,0 +1,6 @@
+user-agent:* 
+allow: /wp/wp-admin/admin-ajax.php
+disallow: /wp/wp-admin/
+
+
+disallow: /user-registration/

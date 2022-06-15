@@ -11,7 +11,7 @@
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-
+    <link href="css/styles.scss" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -42,20 +42,21 @@
 <div class="row">
     <div class="container-fluid d-lg-none d-md-none p-0 position-relative">
         <img src="images/HeroS.png" alt="Hero">
+        <a class="CTA btn position-absolute" href="Webshop.php" role="button">SHOP</a>
     </div>
 
     <div class="container-fluid d-none d-md-block p-0 position-relative">
         <img src="images/HeroL.png" alt="Herolarge">
+        <a class="CTA btn position-absolute" href="Webshop.php" role="button">SHOP</a>
     </div>
 
 
-    <a class="CTA btn position-absolute" href="Webshop.php" role="button">SHOP</a>
 </div>
 
-<div class="container-sm w-auto cookies">
+<div class="container-sm w-auto cookies fixed-bottom">
     <div class="alert alert-light" role="alert">
         Vi bruger <a href="#" class="alert-link">Cookies</a> her på siden
-        <button type="button" class="btn-close" aria-label="Close">hgjgf</button>
+        <button type="button" class="btn-minFarve" aria-label="Close">Accepter</button>
     </div>
 </div>
 
@@ -231,7 +232,7 @@
     </div>
 </div>
 <br><br>
-
+kllk
 <!-- cards/ person Lg -->
 <div class="cards container-fluid d-none d-lg-block d-md-block flex-wrap">
     <div class="row mx-auto">
@@ -283,7 +284,7 @@
                         <h5 class="card-title">Råvarer til sundere snack</h5>
                         <p class="card-text">Her giver vi opskriften til dig hvordan du kan
                             blande dine yndlingssmage i din chokolade
-                            og booste vitaminer i råvarerne. - Læs videre</p>
+                            og booste vitaminer i råvarerne. <a href="#">- Læs videre<a/></p>
                         <p class="card-text"><small class="text-muted">Opdateret 1 uge siden</small></p>
                     </div>
                 </div>
@@ -329,18 +330,14 @@
 </div>
 
 
-<!-- footer
-<a class="nav-link d-lg-none" href="#"><img src="images/kort.png" alt="map"></a>
-<a class="nav-link d-none d-lg-block" href="#"><img src="images/Lgkort.png" alt="largemap"></a>
-<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
-    -->
+<!-- footer -->
 <a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/kort.png" alt="Map"></a>
 <a class="container-fluid nav-link d-none d-lg-block p-0 m-0" href="#"><img src="images/KortLG.png" alt="largemap"></a>
 
 <nav class="nav bg-footerfarve">
     <div class="row justify-content-evenly mx-auto">
 
-        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve" style="width: 18rem;">
+        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve" style="">
             <div class="card-body">
                 <h5 class="card-title">Chocolate Club</h5>
                 <h6 class="card-subtitle mb-2 text-muted">
@@ -351,7 +348,7 @@
             </div>
         </div>
 
-        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve" style="width: 18rem;">
+        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve" style="">
             <div class="card-body">
                 <h5 class="card-title">Åbningstider</h5>
                 <p class="card-text">
@@ -365,7 +362,7 @@
             </div>
         </div>
 
-        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve" style="width: 18rem;">
+        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve" style="">
             <div class="card-body">
                 <h5 class="card-title">Kundeservice</h5>
                 <a class="nav-link p-0" href="#">Fragt og levering</a>
