@@ -214,15 +214,7 @@
     </div>
 </div>
 
-<div class="container-fluid mx-auto justify-content-center d-flex">
-    <div class="row">
-        <div class="col-6">
-            <a href="#" class="btn btn-knapFarve">BESTIL</a>
-        </div>
-    </div>
-</div>
-
-<div class="container mt-5 py-2 rounded col-12 text-center">
+<div class="container mt-3 py-2 rounded col-12 text-center">
     <div class="row">
         <div class="col-12">
             <a href="" class=" btn btn-knapFarve mb-4 btn-lg pl-5 pr-5">BESTIL</a>
