@@ -83,9 +83,8 @@
                 <br>
                 <h4>85 DKK</h4>
                 <br>
-                <p>Smagsfuldte chokolade med</p>
-                <p>med smage til en hver person</p>
-                <p>denne box indeholder 24 lækre chokolader</p>
+                <p>21 lækre håndlavet</p>
+                <p>forskellige fyldte mundgodter</p>
             </div>
 
             <br>
@@ -111,9 +110,8 @@
             <br>
             <h4>85 DKK</h4>
             <br>
-            <p>Smagsfuldte chokolade med</p>
-            <p>med smage til en hver person</p>
-            <p>denne box indeholder 24 lækre chokolader</p>
+            <p>21 lækre håndlavet</p>
+            <p>forskellige fyldte mundgodter</p>
         </div>
 
         <div class="pt-3">
