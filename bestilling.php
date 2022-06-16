@@ -49,17 +49,17 @@
     </div>
 </nav>
 
+<figure class="container-fluid">
+    <a href="betaling.php">
+        <img src="images/pil.png" alt="Tilbage pil"></a>
+</figure>
+
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="betaling.php">betaling</a></li>
         <li class="breadcrumb-item active" aria-current="page">bestilling</li>
     </ol>
 </nav>
-
-<figure class="container-fluid">
-    <a href="betaling.php">
-        <img src="images/pil.png" alt="Tilbage pil"></a>
-</figure>
 
 <article class="container col-12">
     <div class="row pt-3 gx-5">
