@@ -43,5 +43,13 @@ img {
 }
 
 .footercard{
-  border: 0px;
+  border: 0;
+}
+
+.cards{
+  display: flex;
+}
+
+.pil{
+  min-width: 30px;
 }
