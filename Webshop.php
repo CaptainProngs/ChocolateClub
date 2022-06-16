@@ -104,7 +104,7 @@
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/produkter2.webp" class="card-img-top" alt="product1"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Hindbær myrtille 34 kr,-</h5>
+                    <h5 class="card-title">Hindbær myrtille 55 kr,-</h5>
                     <h6 class="card-text">Chokolade bygget på de modneste hindbær og blåbær, er dette en lækker smagsoplevelse, der skal prøves. </h6>
                     <p class="card-text">Lavet af Tobias Trads</p>
                 </div>
@@ -124,7 +124,7 @@
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkter1.webp" class="card-img-top" alt="product3"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Macula 34 kr,-</h5>
+                    <h5 class="card-title">Macula 55 kr,-</h5>
                     <h6 class="card-text">60% chokolade i en plettet indpakke, som rummer en mangfoldig smagsoplevelse, der lever op til de festlige farver, der pryder den. </h6>
                     <p class="card-text">Lavet af Tobias Trads</p>
                 </div>
@@ -134,7 +134,7 @@
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkter6.webp" class="card-img-top" alt="product4"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Purple delight 45 kr,-</h5>
+                    <h5 class="card-title">Purple delight 77 kr,-</h5>
                     <h6 class="card-text">16 forskellige håndlavet eksklusive chokolader, lige til en fin værtindegave eller til egen slikmund, hvis det er det man lyster. </h6>
                     <p class="card-text">Lavet af Amalie Mikkelsen</p>
                 </div>
@@ -144,7 +144,7 @@
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/produkter9.webp" class="card-img-top" alt="product5"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Montagne 39 kr,-</h5>
+                    <h5 class="card-title">Montagne 95 kr,-</h5>
                     <h6 class="card-text">Chokolade i spændende former og udsøgte smage. Til dig som er til det lidt anderledes.</h6>
                     <p class="card-text">Lavet af Frederik Wolmar</p>
                 </div>
@@ -154,7 +154,7 @@
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/produkter10.webp" class="card-img-top" alt="product6"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Mint tree 21 kr,-</h5>
+                    <h5 class="card-title">Mint tree 45 kr,-</h5>
                     <h6 class="card-text">En minty oplevelse til dem som godt kan lide det udsøgte. Med mynte blade, mørk chokolade på toppen og lækkert chokolademousse i midten, er denne en særdeles god dessert.</h6>
                     <p class="card-text">Lavet af Amalie Mikkelsen</p>
                 </div>
@@ -216,11 +216,9 @@
 
 <div class="container-fluid mx-auto justify-content-center d-flex">
     <div class="row">
-        <div class="col-3"></div>
-        <div class="col-3">
-            <a href="#" class="btn btn-knapFarve ">BESTIL</a>
+        <div class="col-6">
+            <a href="#" class="btn btn-knapFarve">BESTIL</a>
         </div>
-        <div class="col-3"></div>
     </div>
 </div>
 
