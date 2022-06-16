@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Chocolate Club</title>
+    <title>Chocolate Club indkøbskurv</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
