@@ -39,10 +39,10 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Shop</a>
-                <a class="nav-link" href="chocolatiers.php">Chocolatiers</a>
-                <a class="nav-link" href="Kontakt.php">Kontakt</a>
-                <a class="nav-link" href="#">Speciel bestilling</a>
+                <a class="nav-link active" aria-current="page" href="Webshop.php">Shop</a>
+                <a class="nav-link" href="#">Chocolatiers</a>
+                <a class="nav-link" href="#">Kontakt</a>
+                <a class="nav-link" href="404.php">Speciel bestilling</a>
             </div>
         </div>
     </div>
@@ -114,7 +114,7 @@
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/produkter3.webp" class="card-img-top" alt="product2"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Multishot chocolate 65 kr,-</h5>
+                    <h5 class="card-title">Multishot chocolate 85 kr,-</h5>
                     <h6 class="card-text">21 lækre håndlavet forskellige fyldte mundgodter, alt fra karamel fyld, mint, hindbær med lakrids. En god samling til de hyggelige stunder.</h6>
                     <p class="card-text">Lavet af Amalie Mikkelsen.</p>
                 </div>
