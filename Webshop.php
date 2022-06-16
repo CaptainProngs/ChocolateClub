@@ -61,7 +61,7 @@
             </nav>
         </div>
 
-        <div class="col justify-content-end"><h2>Webshop</h2></div>
+        <div class="col justify-content-end"><h1>Webshop</h1></div>
     </div>
 </div>
 
@@ -69,7 +69,7 @@
 <div class="container-fluid p-0 mt-3">
     <img src="images/Chokolade%20banner.png" alt="Hero">
 </div>
-<div class="container-fluid m-3">
+<div class="container-fluid ms-2 mt-2">
     <h3>Click & Collect</h3>
     <p>Her kan du købe til alle stunder, hurtigt og bekvemt, eller til de særlige</p>
     <p>begivenheder, kan der bestilles specielt lavet chokolade længere ned på siden. </p>
@@ -104,7 +104,7 @@
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/produkter2.webp" class="card-img-top" alt="product1"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Hindbær myrtille</h5>
+                    <h5 class="card-title">Hindbær myrtille 34 kr,-</h5>
                     <h6 class="card-text">Chokolade bygget på de modneste hindbær og blåbær, er dette en lækker smagsoplevelse, der skal prøves. </h6>
                     <p class="card-text">Lavet af Tobias Trads</p>
                 </div>
@@ -114,7 +114,7 @@
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/produkter3.webp" class="card-img-top" alt="product2"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Multishot chocolate</h5>
+                    <h5 class="card-title">Multishot chocolate 65 kr,-</h5>
                     <h6 class="card-text">21 lækre håndlavet forskellige fyldte mundgodter, alt fra karamel fyld, mint, hindbær med lakrids. En god samling til de hyggelige stunder.</h6>
                     <p class="card-text">Lavet af Amalie Mikkelsen.</p>
                 </div>
@@ -124,7 +124,7 @@
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkter1.webp" class="card-img-top" alt="product3"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Macula</h5>
+                    <h5 class="card-title">Macula 34 kr,-</h5>
                     <h6 class="card-text">60% chokolade i en plettet indpakke, som rummer en mangfoldig smagsoplevelse, der lever op til de festlige farver, der pryder den. </h6>
                     <p class="card-text">Lavet af Tobias Trads</p>
                 </div>
@@ -134,7 +134,7 @@
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/Produkter6.webp" class="card-img-top" alt="product4"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Purple delight </h5>
+                    <h5 class="card-title">Purple delight 45 kr,-</h5>
                     <h6 class="card-text">16 forskellige håndlavet eksklusive chokolader, lige til en fin værtindegave eller til egen slikmund, hvis det er det man lyster. </h6>
                     <p class="card-text">Lavet af Amalie Mikkelsen</p>
                 </div>
@@ -144,7 +144,7 @@
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/produkter9.webp" class="card-img-top" alt="product5"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Montagne</h5>
+                    <h5 class="card-title">Montagne 39 kr,-</h5>
                     <h6 class="card-text">Chokolade i spændende former og udsøgte smage. Til dig som er til det lidt anderledes.</h6>
                     <p class="card-text">Lavet af Frederik Wolmar</p>
                 </div>
@@ -154,7 +154,7 @@
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/produkter10.webp" class="card-img-top" alt="product6"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Mint tree</h5>
+                    <h5 class="card-title">Mint tree 21 kr,-</h5>
                     <h6 class="card-text">En minty oplevelse til dem som godt kan lide det udsøgte. Med mynte blade, mørk chokolade på toppen og lækkert chokolademousse i midten, er denne en særdeles god dessert.</h6>
                     <p class="card-text">Lavet af Amalie Mikkelsen</p>
                 </div>
@@ -166,13 +166,13 @@
 <br><br><br>
 
 <div class="container-fluid d-none d-md-block p-0 mt-3">
-    <img src="images/specielbestillingbanner.png" alt="Hero">
+    <img src="images/specielbestillingbanner1.png" alt="Hero">
 </div>
 
 <div class="container-fluid d-lg-none d-md-none p-0 mt-3">
-    <img src="images/specielbestillingbanner%20mobil.png" alt="Hero">
+    <img src="images/specielbestillingbanner%20mobil1.png" alt="Hero">
 </div>
-<div class="container-fluid m-4">
+<div class="container-fluid ms-2 mt-3">
     <h6>Til enhver særlig begivenheder, står Frederik Volmar til rådighed, med sine kunstfærdigheder.</h6>
     <h6>For mere information eller et tilbud, kontakt os via bestilling.</h6>
 </div>
