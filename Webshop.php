@@ -10,15 +10,15 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Chocolate Club shop</title>
+    <title>Chocolate Club webshop</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
-    <meta name="description" content="3 chocolatiers med 3 forskellige spepialer inden for chokolade">
-    <meta name="keywords" content="Chokolade Roskilde, fyldte chokolader, små chokolader til bryllup">
+    <meta name="description" content="Webshop med chokolade til ethvert selskab i Roskilde">
+    <meta name="keywords" content="click og collect, fyldte chokolader, små chokolader til bryllup">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
