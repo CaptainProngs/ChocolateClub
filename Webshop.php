@@ -49,7 +49,7 @@
 </nav>
 
 
-<a class="nav-link pil justify-content-start" href="index.html"><img src="images/pil.png"></a>
+<a class="nav-link pil justify-content-start" href="index.html"><img src="images/pil.png" alt="tilbage"></a>
 <div class="container-fluid">
     <div class="row">
         <div class="col justify-content-lg-start">
@@ -92,7 +92,7 @@
             </div>
         </div>
         <div class="col-auto p-0">
-            <a class="nav-link justify-content-end p-0" href="#"><img src="images/Sorterikon.png"></a>
+            <a class="nav-link justify-content-end p-0" href="#"><img src="images/Sorterikon.png" alt="sorter"></a>
         </div>
     </div>
 </div>
@@ -102,40 +102,40 @@
     <div class="row">
         <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
             <div class="card shadow">
-                <a href="produktside.php"><img src="images/Produkt3.2.webp" class="card-img-top" alt="product1"></a>
+                <a href="produktside.php"><img src="images/produkter2.webp" class="card-img-top" alt="product1"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Chokolade bar</h5>
-                    <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
+                    <h5 class="card-title">Hindbær myrtille</h5>
+                    <h6 class="card-text">Chokolade bygget på de modneste hindbær og blåbær, er dette en lækker smagsoplevelse, der skal prøves. </h6>
                     <p class="card-text">Lavet af Tobias Trads</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
             <div class="card shadow">
-                <a href="produktside.php"><img src="images/Produkt1.2.png" class="card-img-top" alt="product2"></a>
+                <a href="produktside.php"><img src="images/produkter3.webp" class="card-img-top" alt="product2"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Blandet fine chokolader</h5>
-                    <h6 class="card-text">legede chokolade</h6>
+                    <h5 class="card-title">Multishot chocolate</h5>
+                    <h6 class="card-text">21 lækre håndlavet forskellige fyldte mundgodter, alt fra karamel fyld, mint, hindbær med lakrids. En god samling til de hyggelige stunder.    </h6>
                     <p class="card-text">Lavet af Amalie Mikkelsen.</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
             <div class="card shadow">
-                <a href="produktside.php"><img src="images/Produkt4.2.png" class="card-img-top" alt="product3"></a>
+                <a href="produktside.php"><img src="images/Produkter1.webp" class="card-img-top" alt="product3"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Chokolade bar hindbær</h5>
-                    <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
+                    <h5 class="card-title">Macula</h5>
+                    <h6 class="card-text">60% chokolade i en plettet indpakke, som rummer en mangfoldig smagsoplevelse, der lever op til de festlige farver, der pryder den. </h6>
                     <p class="card-text">Lavet af Tobias Trads</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
             <div class="card shadow">
-                <a href="produktside.php"><img src="images/Produkt5.2.png" class="card-img-top" alt="product4"></a>
+                <a href="produktside.php"><img src="images/Produkter6.webp" class="card-img-top" alt="product4"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Mint kopper</h5>
-                    <h6 class="card-text">Cremet chkolade kopper med et stref af mint</h6>
+                    <h5 class="card-title">Purple delight </h5>
+                    <h6 class="card-text">16 forskellige håndlavet eksklusive chokolader, lige til en fin værtindegave eller til egen slikmund, hvis det er det man lyster. </h6>
                     <p class="card-text">Lavet af Amalie Mikkelsen</p>
                 </div>
             </div>
@@ -181,31 +181,31 @@
     <div class="row">
         <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
             <div class="card shadow">
-                <a href="produktside.php"><img src="images/Produkt2.png" class="card-img-top" alt="product7"></a>
+                <a href="produktside.php"><img src="images/produkt4.webp" class="card-img-top" alt="product7"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Chokolade bar</h5>
-                    <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
-                    <p class="card-text">Lavet af Tobias Trads</p>
+                    <h5 class="card-title">Fyldt calvaria</h5>
+                    <h6 class="card-text">Lækre chokolade kranium med valnød i midten, er dette en sjov lille bid, til de skønne aftener eller til fx. halloween. </h6>
+                    <p class="card-text">Lavet af Frederik Wolmar</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
             <div class="card shadow">
-                <a href="produktside.php"><img src="images/Produkt8.png" class="card-img-top" alt="product8"></a>
+                <a href="produktside.php"><img src="images/Produkt5.webp" class="card-img-top" alt="product8"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Blandet fine chokolader</h5>
-                    <h6 class="card-text">legede chokolade</h6>
-                    <p class="card-text">Lavet af Amalie Mikkelsen.</p>
+                    <h5 class="card-title">Golden terra delight</h5>
+                    <h6 class="card-text">Chokolade æg, der kan specielt bestilles. </h6>
+                    <p class="card-text">Lavet af Frederik Wolmar</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
             <div class="card shadow">
-                <a href="produktside.php"><img src="images/Produkt5.png" class="card-img-top" alt="product9"></a>
+                <a href="produktside.php"><img src="images/produkt7.webp" class="card-img-top" alt="product9"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Chokolade bar hindbær</h5>
-                    <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
-                    <p class="card-text">Lavet af Tobias Trads</p>
+                    <h5 class="card-title">Mint tree</h5>
+                    <h6 class="card-text">En minty oplevelse til dem som godt kan lide det udsøgte. Med mynte blade, mørk chokolade på toppen og lækkert chokolademousse i midten, er denne en særdeles god dessert.   </h6>
+                    <p class="card-text">Lavet af Frederik Wolmar</p>
                 </div>
             </div>
         </div>
