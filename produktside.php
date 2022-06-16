@@ -69,43 +69,17 @@
     </div>
 </figure>
 
-    <section class="container col-12 justify-content-center pt-5">
-        <div class="row pt-3 gx-5">
+<section class="container col-12 justify-content-center pt-5">
+    <div class="row pt-3 gx-5">
 
-            <figure class="col-12 col-md-6">
-                <img src="images/produkter3.webp" class="rounded mx-auto d-block shadow p-0 bg-body rounded" width="400px"
-                     alt="produkt">
-            </figure>
+        <figure class="col-12 col-md-6">
+            <img src="images/produkter3.webp" class="rounded mx-auto d-block shadow p-0 bg-body rounded" width="400px"
+                 alt="produkt">
+        </figure>
 
-            <article class="col-6 d-none d-md-block">
-                <div class="pt-5">
-                    <h1>Smagsfyldte chokolade</h1>
-                    <br>
-                    <h4>85 DKK</h4>
-                    <br>
-                    <p>Smagsfuldte chokolade med</p>
-                    <p>med smage til en hver person</p>
-                    <p>denne box indeholder 24 lækre chokolader</p>
-                </div>
-
-                <br>
-
-                <div class="pt-lg-5 mt-lg-5">
-                    <h6>Antal</h6>
-                    <button type="button" class="btn btn-light btn-outline-secondary">1</button>
-                    <button type="button" class="btn btn-light btn-outline-secondary">+</button>
-                    <button type="button" class="btn btn-light btn-outline-secondary">-</button>
-                </div>
-
-                <div class="col-6 pt-1">
-                    <button type="button" class="btn btn-knapFarve px-4">Læg i kurv</button>
-                </div>
-            </article>
-        </div>
-
-        <article class="col-12 d-lg-none d-md-none">
+        <article class="col-6 d-none d-md-block">
             <div class="pt-5">
-                <h1>Smagsfyldte chokolade</h1>
+                <h1>Multishot chocolate</h1>
                 <br>
                 <h4>85 DKK</h4>
                 <br>
@@ -114,138 +88,168 @@
                 <p>denne box indeholder 24 lækre chokolader</p>
             </div>
 
-            <div class="pt-3">
+            <br>
+
+            <div class="pt-lg-5 mt-lg-5">
                 <h6>Antal</h6>
                 <button type="button" class="btn btn-light btn-outline-secondary">1</button>
                 <button type="button" class="btn btn-light btn-outline-secondary">+</button>
                 <button type="button" class="btn btn-light btn-outline-secondary">-</button>
             </div>
 
-            <div class="pt-1">
-                <button type="button" class="btn btn-knapFarve px-4">Læg i kurv</button>
+            <div class="col-6 pt-1">
+                <a href="kurv.php">
+                    <button type="button" class="btn btn-knapFarve px-4">Læg i kurv</button>
+                </a>
             </div>
         </article>
-    </section>
+    </div>
 
-    <br><br><br><br><br><br>
-
-    <section class="container-fluid d-lg-none d-md-none">
-        <h3 class="header p-3">Andre kunder har kigget på</h3>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-
-            <div class="carousel-inner p-2">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <div class="card mx-auto shadow">
-                        <img src="images/Produkter1.webp" class="card-img-top" alt="...">
-                        <article class="card-body">
-                            <h5 class="card-title">Chokolade bar</h5>
-                            <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
-                            <p class="card-text">Lavet af Tobias Trads</p>
-                        </article>
-                    </div>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <div class="card mx-auto shadow">
-                        <img src="images/produkter3.webp" class="card-img-top" alt="...">
-                        <article class="card-body">
-                            <h5 class="card-title">Blandet fine chokolader</h5>
-                            <h6 class="card-text">legede chokolade</h6>
-                            <p class="card-text">Lavet af Amalie Mikkelsen.</p>
-                        </article>
-                    </div>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card mx-auto shadow">
-                        <img src="images/produkter2.webp" class="card-img-top" alt="...">
-                        <article class="card-body">
-                            <h5 class="card-title">Frederik Wolmar</h5>
-                            <p class="card-text">Din begivenhed, er mit mesterværk</p>
-                        </article>
-                    </div>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+    <article class="col-12 d-lg-none d-md-none px-5">
+        <div class="pt-5">
+            <h1>Smagsfyldte chokolade</h1>
+            <br>
+            <h4>85 DKK</h4>
+            <br>
+            <p>Smagsfuldte chokolade med</p>
+            <p>med smage til en hver person</p>
+            <p>denne box indeholder 24 lækre chokolader</p>
         </div>
-    </section>
-    <br>
 
-    <section class="cards container-fluid d-none d-lg-block d-md-block flex-wrap p-3 m-2">
-        <h2 class="header">Andre kunder har kigget på</h2>
-        <div class="row">
-            <div class="col-lg-3 col-md-6 p-3">
-                <div class="card shadow">
-                    <img src="images/Produkter1.webp" class="card-img-top" alt="product1">
+        <div class="pt-3">
+            <h6>Antal</h6>
+            <button type="button" class="btn btn-light btn-outline-secondary">1</button>
+            <button type="button" class="btn btn-light btn-outline-secondary">+</button>
+            <button type="button" class="btn btn-light btn-outline-secondary">-</button>
+        </div>
+
+        <div class="pt-1">
+            <a href="kurv.php">
+                <button type="button" class="btn btn-knapFarve px-4">Læg i kurv</button>
+            </a>
+        </div>
+    </article>
+</section>
+
+<br><br><br><br><br><br>
+
+<section class="container-fluid d-lg-none d-md-none">
+    <h3 class="header p-3">Andre kunder har kigget på</h3>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner p-2">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <div class="card mx-auto shadow">
+                    <img src="images/Produkter1.webp" class="card-img-top" alt="...">
                     <article class="card-body">
                         <h5 class="card-title">Chokolade bar</h5>
                         <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
                         <p class="card-text">Lavet af Tobias Trads</p>
                     </article>
                 </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-6 p-3">
-                <div class="card shadow">
-                    <img src="images/produkter3.webp" class="card-img-top" alt="product2">
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="card mx-auto shadow">
+                    <img src="images/produkter3.webp" class="card-img-top" alt="...">
                     <article class="card-body">
                         <h5 class="card-title">Blandet fine chokolader</h5>
                         <h6 class="card-text">legede chokolade</h6>
                         <p class="card-text">Lavet af Amalie Mikkelsen.</p>
                     </article>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 p-3">
-                <div class="card shadow">
-                    <img src="images/produkter2.webp" class="card-img-top" alt="product3">
-                    <article class="card-body">
-                        <h5 class="card-title">Chokolade bar hindbær</h5>
-                        <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
-                        <p class="card-text">Lavet af Tobias Trads</p>
-                    </article>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 p-3">
-                <div class="card shadow">
-                    <img src="images/SoMeH.png" class="card-img-top" alt="product4">
+            <div class="carousel-item">
+                <div class="card mx-auto shadow">
+                    <img src="images/produkter2.webp" class="card-img-top" alt="...">
                     <article class="card-body">
-                        <h5 class="card-title">Mint kopper</h5>
-                        <h6 class="card-text">Cremet chkolade kopper med et stref af mint</h6>
-                        <p class="card-text">Lavet af Amalie Mikkelsen</p>
+                        <h5 class="card-title">Frederik Wolmar</h5>
+                        <p class="card-text">Din begivenhed, er mit mesterværk</p>
                     </article>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
                 </div>
             </div>
         </div>
-    </section>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+<br>
 
-    <br><br>
-
-    <figure class="container">
-        <div class="row justify-content-end">
-            <div class="col-3 ps-2">
-                <p>@ChocolateClub</p>
-                <img src="images/SoMelogo.png" alt="Sociale Medier">
+<section class="cards container-fluid d-none d-lg-block d-md-block flex-wrap p-3 m-2">
+    <h2 class="header">Andre kunder har kigget på</h2>
+    <div class="row">
+        <div class="col-lg-3 col-md-6 p-3">
+            <div class="card shadow">
+                <img src="images/Produkter1.webp" class="card-img-top" alt="product1">
+                <article class="card-body">
+                    <h5 class="card-title">Chokolade bar</h5>
+                    <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
+                    <p class="card-text">Lavet af Tobias Trads</p>
+                </article>
             </div>
         </div>
-    </figure>
+        <div class="col-lg-3 col-md-6 p-3">
+            <div class="card shadow">
+                <img src="images/produkter3.webp" class="card-img-top" alt="product2">
+                <article class="card-body">
+                    <h5 class="card-title">Blandet fine chokolader</h5>
+                    <h6 class="card-text">legede chokolade</h6>
+                    <p class="card-text">Lavet af Amalie Mikkelsen.</p>
+                </article>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 p-3">
+            <div class="card shadow">
+                <img src="images/produkter2.webp" class="card-img-top" alt="product3">
+                <article class="card-body">
+                    <h5 class="card-title">Chokolade bar hindbær</h5>
+                    <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
+                    <p class="card-text">Lavet af Tobias Trads</p>
+                </article>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 p-3">
+            <div class="card shadow">
+                <img src="images/SoMeH.png" class="card-img-top" alt="product4">
+                <article class="card-body">
+                    <h5 class="card-title">Mint kopper</h5>
+                    <h6 class="card-text">Cremet chkolade kopper med et stref af mint</h6>
+                    <p class="card-text">Lavet af Amalie Mikkelsen</p>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <!-- footer -->
+<br><br>
+
+<figure class="container">
+    <div class="row justify-content-end">
+        <div class="col-3 ps-2">
+            <p>@ChocolateClub</p>
+            <img src="images/SoMelogo.png" alt="Sociale Medier">
+        </div>
+    </div>
+</figure>
+
+<!-- footer -->
 <a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/kort.png" alt="Map"></a>
 <a class="container-fluid nav-link d-none d-lg-block p-0 m-0" href="#"><img src="images/KortLG.png" alt="largemap"></a>
 
@@ -303,7 +307,7 @@
     </div>
 </div>
 
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
