@@ -50,7 +50,7 @@
 </nav>
 
 <figure class="container-fluid">
-    <img src="images/produktbanner.webp" width="100%" alt="banner">
+    <img src="images/Produktbanner.webp" width="100%" alt="banner">
 </figure>
 
 <figure class="container-fluid col-12">
