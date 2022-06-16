@@ -72,7 +72,7 @@
     <section class="container col-12 justify-content-center pt-5">
         <div class="row pt-3 gx-5">
 
-            <figure class="col-6">
+            <figure class="col-12 col-md-6">
                 <img src="images/produkter3.webp" class="rounded mx-auto d-block shadow p-0 bg-body rounded" width="400px"
                      alt="produkt">
             </figure>
@@ -88,7 +88,9 @@
                     <p>denne box indeholder 24 lækre chokolader</p>
                 </div>
 
-                <div class="pt-md-5 mt-md-5">
+                <br>
+
+                <div class="pt-lg-5 mt-lg-5">
                     <h6>Antal</h6>
                     <button type="button" class="btn btn-light btn-outline-secondary">1</button>
                     <button type="button" class="btn btn-light btn-outline-secondary">+</button>
@@ -112,7 +114,7 @@
                 <p>denne box indeholder 24 lækre chokolader</p>
             </div>
 
-            <div class="pt-md-5 mt-md-5">
+            <div class="pt-3">
                 <h6>Antal</h6>
                 <button type="button" class="btn btn-light btn-outline-secondary">1</button>
                 <button type="button" class="btn btn-light btn-outline-secondary">+</button>
