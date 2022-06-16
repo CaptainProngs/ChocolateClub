@@ -115,7 +115,7 @@
                 <a href="produktside.php"><img src="images/produkter3.webp" class="card-img-top" alt="product2"></a>
                 <div class="card-body">
                     <h5 class="card-title">Multishot chocolate</h5>
-                    <h6 class="card-text">21 lækre håndlavet forskellige fyldte mundgodter, alt fra karamel fyld, mint, hindbær med lakrids. En god samling til de hyggelige stunder.    </h6>
+                    <h6 class="card-text">21 lækre håndlavet forskellige fyldte mundgodter, alt fra karamel fyld, mint, hindbær med lakrids. En god samling til de hyggelige stunder.</h6>
                     <p class="card-text">Lavet af Amalie Mikkelsen.</p>
                 </div>
             </div>
@@ -170,9 +170,9 @@
 </div>
 
 <br>
-<div class="container-fluid m-3">
-    <p>Til enhver særlig begivenheder, står Frederik Volmar til rådighed, med sine kunstfærdigheder.</p>
-    <p>For mere information eller et tilbud, kontakt os via bestilling.</p>
+<div class="container-fluid m-4">
+    <h6>Til enhver særlig begivenheder, står Frederik Volmar til rådighed, med sine kunstfærdigheder.</h6>
+    <h6>For mere information eller et tilbud, kontakt os via bestilling.</h6>
 </div>
 
 
