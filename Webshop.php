@@ -114,7 +114,7 @@
             <div class="card shadow">
                 <a href="produktside.php"><img src="images/produkter3.webp" class="card-img-top" alt="product2"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Multishot chocolate 65 kr,-</h5>
+                    <h5 class="card-title">Multishot chocolate 85 kr,-</h5>
                     <h6 class="card-text">21 lækre håndlavet forskellige fyldte mundgodter, alt fra karamel fyld, mint, hindbær med lakrids. En god samling til de hyggelige stunder.</h6>
                     <p class="card-text">Lavet af Amalie Mikkelsen.</p>
                 </div>
