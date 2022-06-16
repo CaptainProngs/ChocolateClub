@@ -53,13 +53,6 @@
     <img src="images/produktbanner.webp" width="100%" alt="banner">
 </figure>
 
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="Webshop.php">Webshop</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Produkt side</li>
-    </ol>
-</nav>
-
 <figure class="container-fluid col-12">
     <div class="row">
         <div class="col-4">
@@ -68,6 +61,13 @@
         </div>
     </div>
 </figure>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="Webshop.php">Webshop</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Produkt side</li>
+    </ol>
+</nav>
 
 <section class="container col-12 justify-content-center pt-5">
     <div class="row pt-3 gx-5">
