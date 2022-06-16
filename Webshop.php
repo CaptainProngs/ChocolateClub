@@ -203,10 +203,10 @@
         </div>
         <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
             <div class="card shadow">
-                <a href="produktside.php"><img src="images/produkt7.webp" class="card-img-top" alt="product9"></a>
+                <a href="produktside.php"><img src="images/produkt8.webp" class="card-img-top" alt="product9"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Mint tree</h5>
-                    <h6 class="card-text">En minty oplevelse til dem som godt kan lide det udsøgte. Med mynte blade, mørk chokolade på toppen og lækkert chokolademousse i midten, er denne en særdeles god dessert.   </h6>
+                    <h5 class="card-title">Modern Oeuf</h5>
+                    <h6 class="card-text">Prisvindende chokolade delight, der kan specielt bestilles.</h6>
                     <p class="card-text">Lavet af Frederik Wolmar</p>
                 </div>
             </div>
