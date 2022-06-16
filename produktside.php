@@ -131,19 +131,20 @@
 
 <br><br><br><br><br><br>
 
-<section class="container-fluid d-lg-none d-md-none">
-    <h3 class="header p-3">Andre kunder har kigget på</h3>
+<!-- sm carousel produkt -->
+<div class="container-fluid d-lg-none d-md-none">
+    <h3 class="header p-2 mt-3">Andre kunder har kigget på</h3>
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
 
         <div class="carousel-inner p-2">
             <div class="carousel-item active" data-bs-interval="10000">
                 <div class="card mx-auto shadow">
-                    <img src="images/Produkter1.webp" class="card-img-top" alt="...">
-                    <article class="card-body">
-                        <h5 class="card-title">Chokolade bar</h5>
-                        <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
+                    <img src="images/produkter2.webp" class="card-img-top" alt="Produkt1">
+                    <div class="card-body">
+                        <h5 class="card-title">Hindbær myrtille</h5>
+                        <h6 class="card-text">Chokolade bygget på de modneste hindbær og blåbær, er dette en lækker smagsoplevelse, der skal prøves.</h6>
                         <p class="card-text">Lavet af Tobias Trads</p>
-                    </article>
+                    </div>
                 </div>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>First slide label</h5>
@@ -152,12 +153,12 @@
             </div>
             <div class="carousel-item" data-bs-interval="2000">
                 <div class="card mx-auto shadow">
-                    <img src="images/produkter3.webp" class="card-img-top" alt="...">
-                    <article class="card-body">
-                        <h5 class="card-title">Blandet fine chokolader</h5>
-                        <h6 class="card-text">legede chokolade</h6>
+                    <img src="images/produkter3.webp" class="card-img-top" alt="Produkt2">
+                    <div class="card-body">
+                        <h5 class="card-title">Multishot chocolate</h5>
+                        <h6 class="card-text">21 lækre håndlavet forskellige fyldte mundgodter, alt fra karamel fyld, mint, hindbær med lakrids. En god samling til de hyggelige stunder.</h6>
                         <p class="card-text">Lavet af Amalie Mikkelsen.</p>
-                    </article>
+                    </div>
                 </div>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Second slide label</h5>
@@ -166,11 +167,12 @@
             </div>
             <div class="carousel-item">
                 <div class="card mx-auto shadow">
-                    <img src="images/produkter2.webp" class="card-img-top" alt="...">
-                    <article class="card-body">
-                        <h5 class="card-title">Frederik Wolmar</h5>
-                        <p class="card-text">Din begivenhed, er mit mesterværk</p>
-                    </article>
+                    <img src="images/Produkter1.webp" class="card-img-top" alt="Produkt3">
+                    <div class="card-body">
+                        <h5 class="card-title">Macula</h5>
+                        <h6 class="card-text">60% chokolade i en plettet indpakke, som rummer en mangfoldig smagsoplevelse, der lever op til de festlige farver, der pryder den.</h6>
+                        <p class="card-text">Lavet af Tobias Trads</p>
+                    </div>
                 </div>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Third slide label</h5>
@@ -187,65 +189,55 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-</section>
+</div>
 <br>
 
-<section class="cards container-fluid d-none d-lg-block d-md-block flex-wrap p-3 m-2">
+<!-- cards/ product Lg -->
+<div class="cards container-fluid d-none d-lg-block d-md-block flex-wrap p-3 m-4">
     <h2 class="header">Andre kunder har kigget på</h2>
-    <div class="row">
-        <div class="col-lg-3 col-md-6 p-3">
+    <div class="row mx-auto">
+        <div class="col-lg-3 col-md-6 p-3 mx-auto">
             <div class="card shadow">
-                <img src="images/Produkter1.webp" class="card-img-top" alt="product1">
-                <article class="card-body">
-                    <h5 class="card-title">Chokolade bar</h5>
-                    <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
+                <img src="images/produkter2.webp" class="card-img-top" alt="Produkt1">
+                <div class="card-body">
+                    <h5 class="card-title">Hindbær myrtille</h5>
+                    <h6 class="card-text">Chokolade bygget på de modneste hindbær og blåbær, er dette en lækker smagsoplevelse, der skal prøves.</h6>
                     <p class="card-text">Lavet af Tobias Trads</p>
-                </article>
+                </div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-6 p-3">
+        <div class="col-lg-3 col-md-6 p-3 mx-auto">
             <div class="card shadow">
-                <img src="images/produkter3.webp" class="card-img-top" alt="product2">
-                <article class="card-body">
-                    <h5 class="card-title">Blandet fine chokolader</h5>
-                    <h6 class="card-text">legede chokolade</h6>
+                <img src="images/produkter3.webp" class="card-img-top" alt="Produkt2">
+                <div class="card-body">
+                    <h5 class="card-title">Multishot chocolate</h5>
+                    <h6 class="card-text">21 lækre håndlavet forskellige fyldte mundgodter, alt fra karamel fyld, mint, hindbær med lakrids. En god samling til de hyggelige stunder.</h6>
                     <p class="card-text">Lavet af Amalie Mikkelsen.</p>
-                </article>
+                </div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-6 p-3">
+        <div class="col-lg-3 col-md-6 p-3 mx-auto">
             <div class="card shadow">
-                <img src="images/produkter2.webp" class="card-img-top" alt="product3">
-                <article class="card-body">
-                    <h5 class="card-title">Chokolade bar hindbær</h5>
-                    <h6 class="card-text">Inspireret af abstrakt maleri.</h6>
+                <img src="images/Produkter1.webp" class="card-img-top" alt="Produkt3">
+                <div class="card-body">
+                    <h5 class="card-title">Macula</h5>
+                    <h6 class="card-text">60% chokolade i en plettet indpakke, som rummer en mangfoldig smagsoplevelse, der lever op til de festlige farver, der pryder den.</h6>
                     <p class="card-text">Lavet af Tobias Trads</p>
-                </article>
+                </div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-6 p-3">
+        <div class="col-lg-3 col-md-6 p-3 mx-auto">
             <div class="card shadow">
-                <img src="images/SoMeH.png" class="card-img-top" alt="product4">
-                <article class="card-body">
-                    <h5 class="card-title">Mint kopper</h5>
-                    <h6 class="card-text">Cremet chkolade kopper med et stref af mint</h6>
-                    <p class="card-text">Lavet af Amalie Mikkelsen</p>
-                </article>
+                <a href="produktside.php"><img src="images/produkter9.webp" class="card-img-top" alt="product7"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Montagne</h5>
+                    <h6 class="card-text">Chokolade i spændende former og udsøgte smage. Til dig som er til det lidt anderledes.</h6>
+                    <p class="card-text">Lavet af Frederik Wolmar</p>
+                </div>
             </div>
         </div>
     </div>
-</section>
-
-<br><br>
-
-<figure class="container">
-    <div class="row justify-content-end">
-        <div class="col-3 ps-2">
-            <p>@ChocolateClub</p>
-            <img src="images/SoMelogo.png" alt="Sociale Medier">
-        </div>
-    </div>
-</figure>
+</div>
 
 <!-- footer -->
 <a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/kort.png" alt="Map"></a>

@@ -111,7 +111,6 @@
 <figure class="container">
     <div class="row justify-content-end">
         <div class="col-3">
-            <p>@ChocolateClub</p>
             <img src="images/SoMelogo.png" alt="Sociale Medier">
         </div>
     </div>
@@ -165,7 +164,6 @@
                 <a class="nav-link p-0" href="#">Cookies</a>
             </div>
         </div>
-
     </div>
 </nav>
 
