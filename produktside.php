@@ -106,7 +106,7 @@
 
     <article class="col-12 d-lg-none d-md-none px-5">
         <div class="pt-5">
-            <h1>Smagsfyldte chokolade</h1>
+            <h1>Multishot chocolate</h1>
             <br>
             <h4>85 DKK</h4>
             <br>
