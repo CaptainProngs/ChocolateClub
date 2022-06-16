@@ -39,8 +39,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="Webshop.php">Shop</a>
-                <a class="nav-link" href="chocolatiers.php">Chocolatiers</a>
-                <a class="nav-link" href="Kontakt.php">Kontakt</a>
+                <a class="nav-link" href="#">Chocolatiers</a>
+                <a class="nav-link" href="#">Kontakt</a>
                 <a class="nav-link" href="404.php">Speciel bestilling</a>
             </div>
         </div>
