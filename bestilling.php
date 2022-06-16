@@ -117,8 +117,8 @@
 </figure>
 
 <!-- footer -->
-<a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/kort.png" alt="Map"></a>
-<a class="container-fluid nav-link d-none d-lg-block p-0 m-0" href="#"><img src="images/KortLG.png" alt="largemap"></a>
+<a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/kort.webp" alt="Map"></a>
+<a class="container-fluid nav-link d-none d-lg-block p-0 m-0" href="#"><img src="images/KortLG.webp" alt="largemap"></a>
 
 <nav class="nav bg-footerfarve m-0">
     <div class="row justify-content-evenly mx-auto">
