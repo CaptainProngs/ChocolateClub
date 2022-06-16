@@ -52,7 +52,7 @@
 </nav>
 
 <figure class="container-fluid p-0">
-    <img src="images/Chokolade%20banner.png" width="100%" alt="banner">
+    <img src="images/Chokolade%20banner.png" alt="banner">
 </figure>
 
 <figure class="container-fluid col-12">
