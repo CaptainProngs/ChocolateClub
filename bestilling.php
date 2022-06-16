@@ -56,66 +56,66 @@
     </ol>
 </nav>
 
-<div class="container-fluid">
+<figure class="container-fluid">
     <a href="betaling.php">
         <img src="images/pil.png" alt="Tilbage pil"></a>
-</div>
+</figure>
 
-<div class="container col-12">
+<article class="container col-12">
     <div class="row pt-3 gx-5">
         <div class="text-center">
             <h1>Tak for din bestilling</h1>
         </div>
     </div>
-</div>
+</article>
 
 <br><br>
 
-<div class="container col-12">
+<article class="container col-12">
     <div class="row">
         <div class="text-center">
             <h3>Kvittering er sendt til din e-mail</h3>
         </div>
     </div>
-</div>
+</article>
 
-<div class="container col-3 pt-5">
+<article class="container col-3 pt-5">
     <div class="row">
         <div class="text-center opacity-50;">
             <h3>Din ordre er klar kl 12:00</h3>
         </div>
     </div>
-</div>
+</article>
 
 <br> <br>
 
-<div class="container col-12">
+<figure class="container col-12">
     <div class="row">
         <div class="justify-content-end">
             <img src="images/checkmark.webp" class="rounded mx-auto d-block" width="20%" alt="Checkmark">
         </div>
     </div>
-</div>
+</figure>
 
 <br>
 
-<div class="container col-12">
+<article class="container col-12">
     <div class="row p-5">
         <div class="text-center">
             <h3>Den kan hente ved</h3>
             <h3>Agerskovvej 17, 4000 Roskilde</h3>
         </div>
     </div>
-</div>
+</article>
 
-<div class="container">
+<figure class="container">
     <div class="row justify-content-end">
         <div class="col-3">
             <p>@ChocolateClub</p>
             <img src="images/SoMelogo.png" alt="Sociale Medier">
         </div>
     </div>
-</div>
+</figure>
 
 <!-- footer -->
 <a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/kort.png" alt="Map"></a>
