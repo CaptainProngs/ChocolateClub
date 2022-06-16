@@ -17,6 +17,9 @@
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
+    <meta name="description" content="3 chocolatiers med 3 forskellige spepialer inden for chokolade">
+    <meta name="keywords" content="Chokolade Roskilde, fyldte chokolader, små chokolader til bryllup">
+
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
