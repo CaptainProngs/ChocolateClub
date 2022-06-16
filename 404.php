@@ -58,15 +58,17 @@
             <h5>klik på home lige nu</h5>
 
             <a href="index.html">
-            <figure class="pt-4">
-                <button type="button" class="btn btn-knapFarve px-5">HOME</button></a>
-            </div>
+                <figure class="pt-4">
+                    <button type="button" class="btn btn-knapFarve px-5">HOME</button>
+            </a>
         </div>
+
 
         <figure class="col-6">
             <img src="images/404.webp" class="rounded mx-auto d-block" width="400px" alt="produkt">
         </figure>
-    </article>
+    </div>
+</article>
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
