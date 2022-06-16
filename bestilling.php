@@ -56,9 +56,9 @@
     </ol>
 </nav>
 
-<div class="container">
+<div class="container-fluid">
     <a href="betaling.php">
-        <img src="images/Tegnebræt%208.png" width="80px" alt="Tilbage pil"></a>
+        <img src="images/pil.png" alt="Tilbage pil"></a>
 </div>
 
 <div class="container col-12">
@@ -117,12 +117,14 @@
     </div>
 </div>
 
+<!-- footer -->
 <a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/kort.png" alt="Map"></a>
 <a class="container-fluid nav-link d-none d-lg-block p-0 m-0" href="#"><img src="images/KortLG.png" alt="largemap"></a>
 
-<nav class="nav bg-footerfarve">
-    <div class="row justify-content-evenly">
-        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve" style="width: 18rem;">
+<nav class="nav bg-footerfarve m-0">
+    <div class="row justify-content-evenly mx-auto">
+
+        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve p-0" style="">
             <div class="card-body">
                 <h5 class="card-title">Chocolate Club</h5>
                 <h6 class="card-subtitle mb-2 text-muted">
@@ -133,7 +135,7 @@
             </div>
         </div>
 
-        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve" style="width: 18rem;">
+        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve p-0" style="">
             <div class="card-body">
                 <h5 class="card-title">Åbningstider</h5>
                 <p class="card-text">
@@ -147,7 +149,7 @@
             </div>
         </div>
 
-        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve" style="width: 18rem;">
+        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve p-0" style="">
             <div class="card-body">
                 <h5 class="card-title">Kundeservice</h5>
                 <a class="nav-link p-0" href="#">Fragt og levering</a>
@@ -163,6 +165,7 @@
                 <a class="nav-link p-0" href="#">Cookies</a>
             </div>
         </div>
+
     </div>
 </nav>
 
