@@ -55,8 +55,8 @@
         <div class="col justify-content-lg-start">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item col-lg-10"><a href="index.html">Startside</a></li>
-                    <li class="breadcrumb-item active col-lg-2" aria-current="page">Webshop</li>
+                    <li class="breadcrumb-item"><a href="index.html">Startside</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Webshop</li>
                 </ol>
             </nav>
         </div>
@@ -142,20 +142,20 @@
         </div>
         <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
             <div class="card shadow">
-                <a href="produktside.php"><img src="images/Produkt2.2.png" class="card-img-top" alt="product5"></a>
+                <a href="produktside.php"><img src="images/produkter9.webp" class="card-img-top" alt="product5"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Mint kopper</h5>
-                    <h6 class="card-text">Cremet chkolade kopper med et stref af mint</h6>
-                    <p class="card-text">Lavet af Amalie Mikkelsen</p>
+                    <h5 class="card-title">Montagne</h5>
+                    <h6 class="card-text">Chokolade i spændende former og udsøgte smage. Til dig som er til det lidt anderledes.</h6>
+                    <p class="card-text">Lavet af Frederik Wolmar</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-10 p-3 mx-auto">
             <div class="card shadow">
-                <a href="produktside.php"><img src="images/Produkt7.2.png" class="card-img-top" alt="product6"></a>
+                <a href="produktside.php"><img src="images/produkter10.webp" class="card-img-top" alt="product6"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Mint kopper</h5>
-                    <h6 class="card-text">Cremet chkolade kopper med et stref af mint</h6>
+                    <h5 class="card-title">Mint tree</h5>
+                    <h6 class="card-text">En minty oplevelse til dem som godt kan lide det udsøgte. Med mynte blade, mørk chokolade på toppen og lækkert chokolademousse i midten, er denne en særdeles god dessert.</h6>
                     <p class="card-text">Lavet af Amalie Mikkelsen</p>
                 </div>
             </div>
@@ -163,13 +163,15 @@
     </div>
 </div>
 
-<br><br>
+<br><br><br>
 
-<div class="container-fluid p-0 mt-3">
-    <img src="images/banner%20rust.png" alt="Hero">
+<div class="container-fluid d-none d-md-block p-0 mt-3">
+    <img src="images/specielbestillingbanner.png" alt="Hero">
 </div>
 
-<br>
+<div class="container-fluid d-lg-none d-md-none p-0 mt-3">
+    <img src="images/specielbestillingbanner%20mobil.png" alt="Hero">
+</div>
 <div class="container-fluid m-4">
     <h6>Til enhver særlig begivenheder, står Frederik Volmar til rådighed, med sine kunstfærdigheder.</h6>
     <h6>For mere information eller et tilbud, kontakt os via bestilling.</h6>
