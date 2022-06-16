@@ -26,8 +26,6 @@
     </script>
 
 </head>
-
-<!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
