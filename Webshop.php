@@ -216,11 +216,9 @@
 
 <div class="container-fluid mx-auto justify-content-center d-flex">
     <div class="row">
-        <div class="col-3"></div>
-        <div class="col-3">
-            <a href="#" class="btn btn-knapFarve ">BESTIL</a>
+        <div class="col-6">
+            <a href="#" class="btn btn-knapFarve">BESTIL</a>
         </div>
-        <div class="col-3"></div>
     </div>
 </div>
 
