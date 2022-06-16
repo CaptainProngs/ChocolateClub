@@ -77,7 +77,7 @@
                      alt="produkt">
             </figure>
 
-            <article class="col-6">
+            <article class="col-6 d-none d-md-block">
                 <div class="pt-5">
                     <h1>Smagsfyldte chokolade</h1>
                     <br>
@@ -100,6 +100,29 @@
                 </div>
             </article>
         </div>
+
+        <article class="col-12 d-lg-none d-md-none">
+            <div class="pt-5">
+                <h1>Smagsfyldte chokolade</h1>
+                <br>
+                <h4>85 DKK</h4>
+                <br>
+                <p>Smagsfuldte chokolade med</p>
+                <p>med smage til en hver person</p>
+                <p>denne box indeholder 24 lækre chokolader</p>
+            </div>
+
+            <div class="pt-md-5 mt-md-5">
+                <h6>Antal</h6>
+                <button type="button" class="btn btn-light btn-outline-secondary">1</button>
+                <button type="button" class="btn btn-light btn-outline-secondary">+</button>
+                <button type="button" class="btn btn-light btn-outline-secondary">-</button>
+            </div>
+
+            <div class="pt-1">
+                <button type="button" class="btn btn-knapFarve px-4">Læg i kurv</button>
+            </div>
+        </article>
     </section>
 
     <br><br><br><br><br><br>
