@@ -53,7 +53,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Kurv</li>
                             </ol>
                         </nav>
-                        <a href="webshop...">
+                        <a href="Webshop.php">
                             <i class=""><img src="images/pil.png" alt="tilbage" width="30"></i></a>
                     </div>
                 </div>
@@ -84,9 +84,8 @@
                             <img src="images/produkter3.webp" alt="" width="100"
                                  class="img-fluid">
                             <div class="ml-3 d-inline-block align-middle">
-                                <h5 class="mb-0"><a href="#" class="text-dark align-middle">Chokolade
-                                        fest</a></h5><span
-                                        class="text-muted font-weight-normal font-italic d-block">Lækkert chokolade</span>
+                                <h5 class="mb-0"><a href="#" class="text-dark align-middle">Multishot chocolate</a></h5><span
+                                        class="text-muted font-weight-normal font-italic d-block">21 lækre håndlavet forskellige fyldte mundgodter</span>
                             </div>
                         </div>
                     </div>
@@ -153,6 +152,62 @@
         </div>
     </div>
 </section>
+
+<br><br><br>
+
+<nav class="nav bg-footerfarve m-0">
+    <div class="row justify-content-evenly mx-auto">
+
+        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve p-0" style="">
+            <div class="card-body">
+                <h5 class="card-title">Chocolate Club</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                    Agerskovvej 17,
+                    4000 Roskilde</h6>
+                <a class="nav-link" href="#"><img src="images/Telefon.png" alt="number">+45 12 34 56 78</a>
+                <a class="nav-link" href="#"><img src="images/Mail.png" alt="mail">Mail@cc.dk</a>
+            </div>
+        </div>
+
+        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve p-0" style="">
+            <div class="card-body">
+                <h5 class="card-title">Åbningstider</h5>
+                <p class="card-text">
+                    Mandag - torsdag</p>
+                <p class="card-text">
+                    12:00 - 16:30</p><br>
+                <p class="card-text">
+                    Fredag - søndag</p>
+                <p class="card-text">
+                    11:00 - 19:00</p>
+            </div>
+        </div>
+
+        <div class="card footercard col-10 col-md-3 col-lg-4 mx-auto bg-footerfarve p-0" style="">
+            <div class="card-body">
+                <h5 class="card-title">Kundeservice</h5>
+                <a class="nav-link p-0" href="#">Fragt og levering</a>
+                <a class="nav-link p-0" href="#">Bytte- og returret</a>
+                <a class="nav-link p-0" href="#">Handelsbetingelser</a>
+                <a class="nav-link p-0" href="#">Reklamation</a>
+                <a class="nav-link p-0" href="#">Persondatapolitik</a>
+                <a class="nav-link p-0" href="#">Fødevarestyrelsen</a>
+                <a class="nav-link p-0" href="#">Bæredygtighed</a>
+                <a class="nav-link p-0" href="#">Gavekort og tilgodebeviser</a>
+                <a class="nav-link p-0" href="#">Om os</a>
+                <a class="nav-link p-0" href="#">Q&A</a>
+                <a class="nav-link p-0" href="#">Cookies</a>
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+<div class="container justify-content-center rettighed">
+    <div class="row p-3">
+        <img src="images/rettigheder.png" alt="copyrights">
+    </div>
+</div>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
