@@ -47,16 +47,16 @@
                     <p class="mb-5 text-center">
                         <i class="text-info font-weight-bold">1</i> Vare i din kurv</p>
                     <div class="col-sm-6 mb-3 mb-m-1 order-md-1 text-md-left">
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">Startside</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Kurv</li>
-                            </ol>
-                        </nav>
                         <a href="Webshop.php">
                             <i class=""><img src="images/pil.png" alt="tilbage" width="30"></i></a>
                     </div>
                 </div>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Startside</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Kurv</li>
+                    </ol>
+                </nav>
             </div>
         </div>
 
