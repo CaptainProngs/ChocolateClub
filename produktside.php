@@ -6,13 +6,15 @@
 
 <!-- I <head> har man opsætning - det ser brugeren ikke, men det fortæller noget om siden -->
 <head>
-    <!-- Sætter tegnsætning til utf-8 som bl.a. tillader danske bogstaver -->
     <meta charset="utf-8">
 
-    <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Produkt side</title>
 
-    <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
+
+    <title>Multishot chocolate | Chocolate Club</title>
+
+    <meta name="description" content="Billed og tekst af produktet Multishot chocolate">
+    <meta name="keywords" content="fyldte chokolader, god chokolade, click and collect">
+
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
@@ -240,8 +242,8 @@
 </div>
 
 <!-- footer -->
-<a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/kort.png" alt="Map"></a>
-<a class="container-fluid nav-link d-none d-lg-block p-0 m-0" href="#"><img src="images/KortLG.png" alt="largemap"></a>
+<a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/kort.webp" alt="Map"></a>
+<a class="container-fluid nav-link d-none d-lg-block p-0 m-0" href="#"><img src="images/KortLG.webp" alt="largemap"></a>
 
 <nav class="nav bg-footerfarve m-0">
     <div class="row justify-content-evenly mx-auto">

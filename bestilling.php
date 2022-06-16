@@ -12,7 +12,6 @@
     <!-- Titel som ses oppe i browserens tab mv. -->
     <title>Ordrebekræftelse</title>
 
-    <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
@@ -117,8 +116,8 @@
 </figure>
 
 <!-- footer -->
-<a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/kort.png" alt="Map"></a>
-<a class="container-fluid nav-link d-none d-lg-block p-0 m-0" href="#"><img src="images/KortLG.png" alt="largemap"></a>
+<a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/kort.webp" alt="Map"></a>
+<a class="container-fluid nav-link d-none d-lg-block p-0 m-0" href="#"><img src="images/KortLG.webp" alt="largemap"></a>
 
 <nav class="nav bg-footerfarve m-0">
     <div class="row justify-content-evenly mx-auto">
